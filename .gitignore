@@ -48,3 +48,32 @@ build-iPhoneSimulator/
 
 # unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
 .rvmrc
+*.py[cod]
+.*.swp
+.*.swo
+venv/
+.DS_Store
+cli/help.txt
+cli/help.md
+cli/help_clean.md
+.swp
+pybuild
+cumulusci.egg-info
+build/
+dist/
+.eggs/
+.idea/
+.tox/
+tags
+.vscode/
+.cache/
+.coverage
+.python-version
+selenium-screenshot-*
+log.html
+report.html
+output.xml
+**/.sfdx
+htmlcov/
+.pytest_cache/
+.doctrees
