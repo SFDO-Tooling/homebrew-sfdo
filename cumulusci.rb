@@ -2,10 +2,10 @@ class Cumulusci < Formula
   include Language::Python::Virtualenv
 
   desc "Python framework for building portable automation for Salesforce projects"
-  homepage "https://github.com/SFDO-Tooling/CumulusCI"
-  url "https://files.pythonhosted.org/packages/39/7c/0cdda1ffd69e4421665aa7e6e32d447ead4602842499a9d80e2e579e4d3d/cumulusci-2.2.2.tar.gz"
-  sha256 "1fef3505f49a0543662c3ff9d4634b3d6c03cc54c58a9771a572d1109eb16181"
   head "https://github.com/SFDO-Tooling/CumulusCI.git"
+  homepage "https://github.com/SFDO-Tooling/CumulusCI"
+  url "https://files.pythonhosted.org/packages/4f/90/028caa2f5ed78a03ce7262e6817d94afbf6e25cd04452b10124f724bd5eb/cumulusci-2.2.3.tar.gz"
+  sha256 "11f423edab27a45f2e8652006d74ceb28e4e6d5f81efd6c7e54f7d3e269d8254"
 
   depends_on "python3"
 
@@ -15,8 +15,8 @@ class Cumulusci < Formula
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/41/b6/4f0cefba47656583217acd6cd797bc2db1fede0d53090fdc28ad2c8e0716/certifi-2018.10.15.tar.gz"
-    sha256 "6d58c986d22b038c8c0df30d639f23a3e6d172a05c3583e766f4c0b785c0986a"
+    url "https://files.pythonhosted.org/packages/55/54/3ce77783acba5979ce16674fc98b1920d00b01d337cfaaf5db22543505ed/certifi-2018.11.29.tar.gz"
+    sha256 "47f9c83ef4c0c621eaef743f133f09fa8a74a9b75f037e8624f83bd1b6626cb7"
   end
 
   resource "cffi" do
