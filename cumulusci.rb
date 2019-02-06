@@ -40,8 +40,8 @@ class Cumulusci < Formula
   end
 
   resource "cryptography" do
-    url "https://files.pythonhosted.org/packages/f3/39/d3904df7c56f8654691c4ae1bdb270c1c9220d6da79bd3b1fbad91afd0e1/cryptography-2.4.2.tar.gz"
-    sha256 "05a6052c6a9f17ff78ba78f8e6eb1d777d25db3b763343a1ae89a7a8670386dd"
+    url "https://files.pythonhosted.org/packages/69/ed/5e97b7f54237a9e4e6291b6e52173372b7fa45ca730d36ea90b790c0059a/cryptography-2.5.tar.gz"
+    sha256 "4946b67235b9d2ea7d31307be9d5ad5959d6c4a8f98f900157b47abddf698401"
   end
 
   resource "docutils" do
@@ -55,8 +55,8 @@ class Cumulusci < Formula
   end
 
   resource "github3.py" do
-    url "https://files.pythonhosted.org/packages/21/95/6aa58120fed83565968a31e2768ffb5f543fd41a782410b973acaf91535f/github3.py-1.2.0.tar.gz"
-    sha256 "35fea5bf3567a8e88d3660686d83f96ef164e698ce6fb30f9e2b0edded7357af"
+    url "https://files.pythonhosted.org/packages/2c/78/b593098dc5a16c03a91ef2a2f6341d17943b5d5359c53335a7a04beced42/github3.py-1.3.0.tar.gz"
+    sha256 "15a115c18f7bfcf934dfef7ab103844eb9f620c586bad65967708926da47cbda"
   end
 
   resource "humanfriendly" do
@@ -80,8 +80,8 @@ class Cumulusci < Formula
   end
 
   resource "lxml" do
-    url "https://files.pythonhosted.org/packages/4b/20/ddf5eb3bd5c57582d2b4652b4bbcf8da301bdfe5d805cb94e805f4d7464d/lxml-4.2.5.tar.gz"
-    sha256 "36720698c29e7a9626a0dc802ef8885f8f0239bfd1689628ecd459a061f2807f"
+    url "https://files.pythonhosted.org/packages/16/4a/b085a04d6dad79aa5c00c65c9b2bbcb2c6c22e5ac341e7968e0ad2c57e2f/lxml-4.3.0.tar.gz"
+    sha256 "d1e111b3ab98613115a208c1017f266478b0ab224a67bc8eac670fa0bad7d488"
   end
 
   resource "MarkupSafe" do
@@ -100,8 +100,8 @@ class Cumulusci < Formula
   end
 
   resource "pyOpenSSL" do
-    url "https://files.pythonhosted.org/packages/9b/7c/ee600b2a9304d260d96044ab5c5e57aa489755b92bbeb4c0803f9504f480/pyOpenSSL-18.0.0.tar.gz"
-    sha256 "6488f1423b00f73b7ad5167885312bb0ce410d3312eb212393795b53c8caa580"
+    url "https://files.pythonhosted.org/packages/40/d0/8efd61531f338a89b4efa48fcf1972d870d2b67a7aea9dcf70783c8464dc/pyOpenSSL-19.0.0.tar.gz"
+    sha256 "aeca66338f6de19d1aa46ed634c3b9ae519a64b458f8468aec688e7e3c20f200"
   end
 
   resource "python-dateutil" do
@@ -110,8 +110,8 @@ class Cumulusci < Formula
   end
 
   resource "pytz" do
-    url "https://files.pythonhosted.org/packages/cd/71/ae99fc3df1b1c5267d37ef2c51b7d79c44ba8a5e37b48e3ca93b4d74d98b/pytz-2018.7.tar.gz"
-    sha256 "31cb35c89bd7d333cd32c5f278fca91b523b0834369e757f4c5641ea252236ca"
+    url "https://files.pythonhosted.org/packages/af/be/6c59e30e208a5f28da85751b93ec7b97e4612268bb054d0dff396e758a90/pytz-2018.9.tar.gz"
+    sha256 "d5f05e487007e29e03409f9398d074e158d920d36eb82eaf66fb1136b0c5374c"
   end
 
   resource "PyYAML" do
@@ -130,13 +130,13 @@ class Cumulusci < Formula
   end
 
   resource "robotframework" do
-    url "https://files.pythonhosted.org/packages/dc/c9/34687fa751f6b3ad1a4b5b35f5ae1371b1c1b01e95007fbb03ac0732dc67/robotframework-3.1.zip"
-    sha256 "b28ba5c1f14402ff53a99ecaf74ff782a9ed5a68892eab2b76ecd98b9ecd2127"
+    url "https://files.pythonhosted.org/packages/59/0f/233cc42cc21b95e6204a2e58964552c7242579c5890b531bc98a8834fed0/robotframework-3.1.1.zip"
+    sha256 "7e29b2ac415e6bdbde348d25c0c759c6d3df012c897b31dcf98fd2dd94cee7bd"
   end
 
   resource "robotframework-seleniumlibrary" do
-    url "https://files.pythonhosted.org/packages/ec/44/d6efee0ea0bff85cf5618327184f8342659d338f98e8f71e0deb04542f95/robotframework-seleniumlibrary-3.3.0.tar.gz"
-    sha256 "aad9985cc4e04549fd8faee012eed8fc6eaab11abd6dd984673fb12975aa38fb"
+    url "https://files.pythonhosted.org/packages/c8/e7/c577d9528b80d748fe7beca1b106d751caf39d0d77f8fd85e39b1ef50ded/robotframework-seleniumlibrary-3.3.1.tar.gz"
+    sha256 "6f3a0eba3f0a4f9b10d3271420f4430cc9e8230cc25e3deaa469d533d872a10f"
   end
 
   resource "rst2ansi" do
@@ -170,8 +170,8 @@ class Cumulusci < Formula
   end
 
   resource "SQLAlchemy" do
-    url "https://files.pythonhosted.org/packages/0c/7d/769c5fc22c0cdefd097b91cc525b6d8c88bf2afd8b0315b1e7ca088956b4/SQLAlchemy-1.2.15.tar.gz"
-    sha256 "809547455d012734b4252081db1e6b4fc731de2299f3755708c39863625e1c77"
+    url "https://files.pythonhosted.org/packages/c6/52/73d1c92944cd294a5b165097038418abb6a235f5956d43d06f97254f73bf/SQLAlchemy-1.2.17.tar.gz"
+    sha256 "52a42dbf02d0562d6e90e7af59f177f1cc027e72833cc29c3a821eefa009c71d"
   end
 
   resource "unicodecsv" do
