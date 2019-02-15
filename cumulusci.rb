@@ -49,6 +49,11 @@ class Cumulusci < Formula
     sha256 "51e64ef2ebfb29cae1faa133b3710143496eca21c530f3f71424d77687764274"
   end
 
+  resource "entrypoints" do
+    url "https://files.pythonhosted.org/packages/b4/ef/063484f1f9ba3081e920ec9972c96664e2edb9fdc3d8669b0e3b8fc0ad7c/entrypoints-0.3.tar.gz"
+    sha256 "c70dd71abe5a8c85e55e12c19bd91ccfeec11a6e99044204511f9ed547d48451"
+  end
+
   resource "future" do
     url "https://files.pythonhosted.org/packages/90/52/e20466b85000a181e1e144fd8305caf2cf475e2f9674e797b222f8105f5f/future-0.17.1.tar.gz"
     sha256 "67045236dcfd6816dc439556d009594abf643e5eb48992e36beac09c2ca659b8"
@@ -79,9 +84,14 @@ class Cumulusci < Formula
     sha256 "a87ac0922d09d9a65011f76d99849f1fbad3d95439c7452cebf4ab0871c2b665"
   end
 
+  resource "keyring" do
+    url "https://files.pythonhosted.org/packages/b2/aa/71f2e7990a33a23dfcb3a96b87a9b3029664553f3dae4ec08a6f536183ea/keyring-17.1.1.tar.gz"
+    sha256 "8f683fa6c8886da58b28c7d8e3819b1a4bf193741888e33a6e00944b673a22cf"
+  end
+
   resource "lxml" do
-    url "https://files.pythonhosted.org/packages/16/4a/b085a04d6dad79aa5c00c65c9b2bbcb2c6c22e5ac341e7968e0ad2c57e2f/lxml-4.3.0.tar.gz"
-    sha256 "d1e111b3ab98613115a208c1017f266478b0ab224a67bc8eac670fa0bad7d488"
+    url "https://files.pythonhosted.org/packages/0f/bd/bb1464d1f363dbd805862c8a1ea258b9a4f4d2049c376d1c4790b6545691/lxml-4.3.1.tar.gz"
+    sha256 "da5e7e941d6e71c9c9a717c93725cda0708c2474f532e3680ac5e39ec57d224d"
   end
 
   resource "MarkupSafe" do
@@ -105,8 +115,8 @@ class Cumulusci < Formula
   end
 
   resource "python-dateutil" do
-    url "https://files.pythonhosted.org/packages/0e/01/68747933e8d12263d41ce08119620d9a7e5eb72c876a3442257f74490da0/python-dateutil-2.7.5.tar.gz"
-    sha256 "88f9287c0174266bb0d8cedd395cfba9c58e87e5ad86b2ce58859bc11be3cf02"
+    url "https://files.pythonhosted.org/packages/ad/99/5b2e99737edeb28c71bcbec5b5dda19d0d9ef3ca3e92e3e925e7c0bb364c/python-dateutil-2.8.0.tar.gz"
+    sha256 "c89805f6f4d64db21ed966fda138f8a5ed7a4fdbc1a8ee329ce1b74e3c74da9e"
   end
 
   resource "pytz" do
