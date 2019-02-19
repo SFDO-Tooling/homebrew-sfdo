@@ -1,13 +1,13 @@
 class Cumulusci < Formula
   include Language::Python::Virtualenv
 
-  desc "Python framework for building portable automation for Salesforce projects"
-  head "https://github.com/SFDO-Tooling/CumulusCI.git"
+  desc "Python framework for building automation for Salesforce projects"
   homepage "https://github.com/SFDO-Tooling/CumulusCI"
   url "https://files.pythonhosted.org/packages/17/29/031a86a40c44d0e7d284ee2a99866a15331be233f54adad86d19a9b9cbf7/cumulusci-2.3.1.tar.gz"
   sha256 "47449e4f4473fe40ef5688118f76d79f577823bedd42ffad586116fb97e738d4"
+  head "https://github.com/SFDO-Tooling/CumulusCI.git"
 
-  depends_on "python3"
+  depends_on "python"
 
   resource "asn1crypto" do
     url "https://files.pythonhosted.org/packages/fc/f1/8db7daa71f414ddabfa056c4ef792e1461ff655c2ae2928a2b675bfed6b4/asn1crypto-0.24.0.tar.gz"
