@@ -2,12 +2,12 @@ class Cumulusci < Formula
   include Language::Python::Virtualenv
 
   desc "Python framework for building portable automation for Salesforce projects"
-  head "https://github.com/SFDO-Tooling/CumulusCI.git"
   homepage "https://github.com/SFDO-Tooling/CumulusCI"
   url "https://files.pythonhosted.org/packages/a3/ea/a961c7c57050013ce7f04b9c2725fe7fb35882754ac1411d754d5cffcd92/cumulusci-2.3.2.tar.gz"
   sha256 "786d39cb8a58099cec5f31fd119335cec7b7ab10cadfda8663dc324fc19f3a6a"
+  head "https://github.com/SFDO-Tooling/CumulusCI.git"
 
-  depends_on "python3"
+  depends_on "python"
 
   resource "asn1crypto" do
     url "https://files.pythonhosted.org/packages/fc/f1/8db7daa71f414ddabfa056c4ef792e1461ff655c2ae2928a2b675bfed6b4/asn1crypto-0.24.0.tar.gz"
@@ -42,6 +42,11 @@ class Cumulusci < Formula
   resource "cryptography" do
     url "https://files.pythonhosted.org/packages/69/ed/5e97b7f54237a9e4e6291b6e52173372b7fa45ca730d36ea90b790c0059a/cryptography-2.5.tar.gz"
     sha256 "4946b67235b9d2ea7d31307be9d5ad5959d6c4a8f98f900157b47abddf698401"
+  end
+
+  resource "cumulusci" do
+    url "https://files.pythonhosted.org/packages/a3/ea/a961c7c57050013ce7f04b9c2725fe7fb35882754ac1411d754d5cffcd92/cumulusci-2.3.2.tar.gz"
+    sha256 "786d39cb8a58099cec5f31fd119335cec7b7ab10cadfda8663dc324fc19f3a6a"
   end
 
   resource "docutils" do
@@ -205,8 +210,19 @@ class Cumulusci < Formula
   end
 
   def install
-    virtualenv_create(libexec, "python3")
-    virtualenv_install_with_resources
+    xy = Language::Python.major_minor_version "python3"
+    site_packages = libexec/"lib/python#{xy}/site-packages"
+    ENV.prepend_create_path "PYTHONPATH", site_packages
+
+    deps = resources.map(&:name).to_set
+    deps.each do |r|
+      resource(r).stage do
+        system "python3", *Language::Python.setup_install_args(libexec)
+      end
+    end
+
+    bin.install Dir["#{libexec}/bin/cci"]
+    bin.env_script_all_files(libexec/"bin", :PYTHONPATH => ENV["PYTHONPATH"])
   end
 
   test do
