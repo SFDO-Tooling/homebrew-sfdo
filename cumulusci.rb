@@ -1,7 +1,7 @@
 class Cumulusci < Formula
   include Language::Python::Virtualenv
 
-  desc "Python framework for building portable automation for Salesforce projects"
+  desc "Python framework for building automation for Salesforce projects"
   homepage "https://github.com/SFDO-Tooling/CumulusCI"
   url "https://files.pythonhosted.org/packages/a3/ea/a961c7c57050013ce7f04b9c2725fe7fb35882754ac1411d754d5cffcd92/cumulusci-2.3.2.tar.gz"
   sha256 "786d39cb8a58099cec5f31fd119335cec7b7ab10cadfda8663dc324fc19f3a6a"
