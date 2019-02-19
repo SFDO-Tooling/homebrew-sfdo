@@ -1,5 +1,9 @@
 # homebrew-sfdo
 
+[![Build Status](https://travis-ci.com/jstvz/homebrew-sfdo.svg?branch=master)](https://travis-ci.com/jstvz/homebrew-sfdo)
+
+----
+
 Homebrew tap for SFDO Developer Tools
 - [CumulusCI](https://github.com/SFDO-Tooling/CumulusCI)
 
