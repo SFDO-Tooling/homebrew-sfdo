@@ -5,5 +5,5 @@ before_install:
   - brew update >/dev/null
 script:
   - brew audit cumulusci.rb
-  - brew install -v cumulusci.rb
+  - brew install cumulusci.rb
   - brew test cumulusci.rb
