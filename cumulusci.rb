@@ -3,8 +3,8 @@ class Cumulusci < Formula
 
   desc "Python framework for building automation for Salesforce projects"
   homepage "https://github.com/SFDO-Tooling/CumulusCI"
-  url "https://files.pythonhosted.org/packages/a3/ea/a961c7c57050013ce7f04b9c2725fe7fb35882754ac1411d754d5cffcd92/cumulusci-2.3.2.tar.gz"
-  sha256 "786d39cb8a58099cec5f31fd119335cec7b7ab10cadfda8663dc324fc19f3a6a"
+  url "https://files.pythonhosted.org/packages/d7/20/8d9feafa799d7bbd7c3883632e7e71776795d5d8922053ed97e1e7f3f3fb/cumulusci-2.3.3.tar.gz"
+  sha256 "52108b9670ef07927d1584e467ac52e73a04b77c1b9a40a20664d22ac1b5f45a"
   head "https://github.com/SFDO-Tooling/CumulusCI.git"
 
   depends_on "python"
@@ -45,8 +45,8 @@ class Cumulusci < Formula
   end
 
   resource "cumulusci" do
-    url "https://files.pythonhosted.org/packages/a3/ea/a961c7c57050013ce7f04b9c2725fe7fb35882754ac1411d754d5cffcd92/cumulusci-2.3.2.tar.gz"
-    sha256 "786d39cb8a58099cec5f31fd119335cec7b7ab10cadfda8663dc324fc19f3a6a"
+    url "https://files.pythonhosted.org/packages/d7/20/8d9feafa799d7bbd7c3883632e7e71776795d5d8922053ed97e1e7f3f3fb/cumulusci-2.3.3.tar.gz"
+    sha256 "52108b9670ef07927d1584e467ac52e73a04b77c1b9a40a20664d22ac1b5f45a"
   end
 
   resource "docutils" do
@@ -70,8 +70,8 @@ class Cumulusci < Formula
   end
 
   resource "humanfriendly" do
-    url "https://files.pythonhosted.org/packages/fc/62/327ccaf2bbc726b8612708c3324d8bb8a157418cfba1cf710fc3adf714cf/humanfriendly-4.17.tar.gz"
-    sha256 "1d3a1c157602801c62dfdb321760229df2e0d4f14412a0f41b13ad3f930a936a"
+    url "https://files.pythonhosted.org/packages/26/71/e7daf57e819a70228568ff5395fdbc4de81b63067b93167e07825fcf0bcf/humanfriendly-4.18.tar.gz"
+    sha256 "33ee8ceb63f1db61cce8b5c800c531e1a61023ac5488ccde2ba574a85be00a85"
   end
 
   resource "idna" do
@@ -100,8 +100,8 @@ class Cumulusci < Formula
   end
 
   resource "MarkupSafe" do
-    url "https://files.pythonhosted.org/packages/ac/7e/1b4c2e05809a4414ebce0892fe1e32c14ace86ca7d50c70f00979ca9b3a3/MarkupSafe-1.1.0.tar.gz"
-    sha256 "4e97332c9ce444b0c2c38dd22ddc61c743eb208d916e4265a2a3b575bdccb1d3"
+    url "https://files.pythonhosted.org/packages/b9/2e/64db92e53b86efccfaea71321f597fa2e1b2bd3853d8ce658568f7a13094/MarkupSafe-1.1.1.tar.gz"
+    sha256 "29872e92839765e546828bb7754a68c418d927cd064fd4708fab9fe9c8bb116b"
   end
 
   resource "plaintable" do
