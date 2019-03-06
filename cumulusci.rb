@@ -3,8 +3,8 @@ class Cumulusci < Formula
 
   desc "Python framework for building automation for Salesforce projects"
   homepage "https://github.com/SFDO-Tooling/CumulusCI"
-  url "https://files.pythonhosted.org/packages/d7/20/8d9feafa799d7bbd7c3883632e7e71776795d5d8922053ed97e1e7f3f3fb/cumulusci-2.3.3.tar.gz"
-  sha256 "52108b9670ef07927d1584e467ac52e73a04b77c1b9a40a20664d22ac1b5f45a"
+  url "https://files.pythonhosted.org/packages/49/60/62ba5ebccf402560b39c3b17f106a35fa9dadb5921b64b6ab787121e79a6/cumulusci-2.3.4.tar.gz"
+  sha256 "922ee164e09b32c0b4807c73310f7d7ff585c39848cd8f0e94e4c1ad0292cbaa"
   head "https://github.com/SFDO-Tooling/CumulusCI.git"
 
   depends_on "python"
