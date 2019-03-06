@@ -3,8 +3,8 @@ class Cumulusci < Formula
 
   desc "Python framework for building automation for Salesforce projects"
   homepage "https://github.com/SFDO-Tooling/CumulusCI"
-  url "https://files.pythonhosted.org/packages/d7/20/8d9feafa799d7bbd7c3883632e7e71776795d5d8922053ed97e1e7f3f3fb/cumulusci-2.3.3.tar.gz"
-  sha256 "52108b9670ef07927d1584e467ac52e73a04b77c1b9a40a20664d22ac1b5f45a"
+  url "https://files.pythonhosted.org/packages/49/60/62ba5ebccf402560b39c3b17f106a35fa9dadb5921b64b6ab787121e79a6/cumulusci-2.3.4.tar.gz"
+  sha256 "922ee164e09b32c0b4807c73310f7d7ff585c39848cd8f0e94e4c1ad0292cbaa"
   head "https://github.com/SFDO-Tooling/CumulusCI.git"
 
   depends_on "python"
@@ -20,8 +20,8 @@ class Cumulusci < Formula
   end
 
   resource "cffi" do
-    url "https://files.pythonhosted.org/packages/bc/81/47bd0404f2cb5363edb371e3b15da6387b5e9b80122e5b81be8b8f411e9b/cffi-1.12.1.tar.gz"
-    sha256 "9b6f7ba4e78c52c1a291d0c0c0bd745d19adde1a9e1c03cb899f0c6efd6f8033"
+    url "https://files.pythonhosted.org/packages/64/7c/27367b38e6cc3e1f49f193deb761fe75cda9f95da37b67b422e62281fcac/cffi-1.12.2.tar.gz"
+    sha256 "e113878a446c6228669144ae8a56e268c91b7f1fafae927adc4879d9849e0ea7"
   end
 
   resource "chardet" do
@@ -40,13 +40,13 @@ class Cumulusci < Formula
   end
 
   resource "cryptography" do
-    url "https://files.pythonhosted.org/packages/69/ed/5e97b7f54237a9e4e6291b6e52173372b7fa45ca730d36ea90b790c0059a/cryptography-2.5.tar.gz"
-    sha256 "4946b67235b9d2ea7d31307be9d5ad5959d6c4a8f98f900157b47abddf698401"
+    url "https://files.pythonhosted.org/packages/07/ca/bc827c5e55918ad223d59d299fff92f3563476c3b00d0a9157d9c0217449/cryptography-2.6.1.tar.gz"
+    sha256 "26c821cbeb683facb966045e2064303029d572a87ee69ca5a1bf54bf55f93ca6"
   end
 
   resource "cumulusci" do
-    url "https://files.pythonhosted.org/packages/d7/20/8d9feafa799d7bbd7c3883632e7e71776795d5d8922053ed97e1e7f3f3fb/cumulusci-2.3.3.tar.gz"
-    sha256 "52108b9670ef07927d1584e467ac52e73a04b77c1b9a40a20664d22ac1b5f45a"
+    url "https://files.pythonhosted.org/packages/49/60/62ba5ebccf402560b39c3b17f106a35fa9dadb5921b64b6ab787121e79a6/cumulusci-2.3.4.tar.gz"
+    sha256 "922ee164e09b32c0b4807c73310f7d7ff585c39848cd8f0e94e4c1ad0292cbaa"
   end
 
   resource "docutils" do
@@ -95,8 +95,8 @@ class Cumulusci < Formula
   end
 
   resource "lxml" do
-    url "https://files.pythonhosted.org/packages/0f/bd/bb1464d1f363dbd805862c8a1ea258b9a4f4d2049c376d1c4790b6545691/lxml-4.3.1.tar.gz"
-    sha256 "da5e7e941d6e71c9c9a717c93725cda0708c2474f532e3680ac5e39ec57d224d"
+    url "https://files.pythonhosted.org/packages/65/6f/d070609b415f4a24bf36b7deb94bfd791e8d023c0dbf4233659af53fe0ab/lxml-4.3.2.tar.gz"
+    sha256 "3a9d8521c89bf6f2a929c3d12ad3ad7392c774c327ea809fd08a13be6b3bc05f"
   end
 
   resource "MarkupSafe" do
