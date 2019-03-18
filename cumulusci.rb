@@ -3,8 +3,8 @@ class Cumulusci < Formula
 
   desc "Python framework for building automation for Salesforce projects"
   homepage "https://github.com/SFDO-Tooling/CumulusCI"
-  url "https://files.pythonhosted.org/packages/49/60/62ba5ebccf402560b39c3b17f106a35fa9dadb5921b64b6ab787121e79a6/cumulusci-2.3.4.tar.gz"
-  sha256 "922ee164e09b32c0b4807c73310f7d7ff585c39848cd8f0e94e4c1ad0292cbaa"
+  url "https://files.pythonhosted.org/packages/cc/72/c087d7d51c9b3536254d61d0563aecbc76fefa25ea73302c889cd1440579/cumulusci-2.4.0.tar.gz"
+  sha256 "75e554fdc7d765b1a7ead4ae66de1ec09a98943c19d9ba2ef1c43cbdb8bc7940"
   head "https://github.com/SFDO-Tooling/CumulusCI.git"
 
   depends_on "python"
@@ -15,8 +15,8 @@ class Cumulusci < Formula
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/55/54/3ce77783acba5979ce16674fc98b1920d00b01d337cfaaf5db22543505ed/certifi-2018.11.29.tar.gz"
-    sha256 "47f9c83ef4c0c621eaef743f133f09fa8a74a9b75f037e8624f83bd1b6626cb7"
+    url "https://files.pythonhosted.org/packages/06/b8/d1ea38513c22e8c906275d135818fee16ad8495985956a9b7e2bb21942a1/certifi-2019.3.9.tar.gz"
+    sha256 "b26104d6835d1f5e49452a26eb2ff87fe7090b89dfcaee5ea2212697e1e1d7ae"
   end
 
   resource "cffi" do
@@ -45,8 +45,8 @@ class Cumulusci < Formula
   end
 
   resource "cumulusci" do
-    url "https://files.pythonhosted.org/packages/49/60/62ba5ebccf402560b39c3b17f106a35fa9dadb5921b64b6ab787121e79a6/cumulusci-2.3.4.tar.gz"
-    sha256 "922ee164e09b32c0b4807c73310f7d7ff585c39848cd8f0e94e4c1ad0292cbaa"
+    url "https://files.pythonhosted.org/packages/cc/72/c087d7d51c9b3536254d61d0563aecbc76fefa25ea73302c889cd1440579/cumulusci-2.4.0.tar.gz"
+    sha256 "75e554fdc7d765b1a7ead4ae66de1ec09a98943c19d9ba2ef1c43cbdb8bc7940"
   end
 
   resource "docutils" do
@@ -185,8 +185,8 @@ class Cumulusci < Formula
   end
 
   resource "SQLAlchemy" do
-    url "https://files.pythonhosted.org/packages/21/ed/7eb53305b43ca51774a458d7c292f3bc7664d7a9bbb5bac4149fa34756b9/SQLAlchemy-1.2.18.tar.gz"
-    sha256 "8027fa183f5be466030617a497b2d64e0e16c8d615e5a34bdf9fab6f66bf4723"
+    url "https://files.pythonhosted.org/packages/85/29/d7a5687d0d21ea8133f2d4ef02dfb4d191afe7ebc8bd9f962d99bdf595e1/SQLAlchemy-1.3.1.tar.gz"
+    sha256 "781fb7b9d194ed3fc596b8f0dd4623ff160e3e825dd8c15472376a438c19598b"
   end
 
   resource "unicodecsv" do
