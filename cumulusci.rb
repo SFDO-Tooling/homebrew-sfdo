@@ -3,8 +3,8 @@ class Cumulusci < Formula
 
   desc "Python framework for building automation for Salesforce projects"
   homepage "https://github.com/SFDO-Tooling/CumulusCI"
-  url "https://files.pythonhosted.org/packages/80/da/9742e9799b1c7e04347b072f4f24c93b9675ae8c4b3c937fcc092a807a8e/cumulusci-2.4.1.tar.gz"
-  sha256 "41b6740db866da4f308e85d09b1edec6ecb71cce74862da54c59754107ed7f35"
+  url "https://files.pythonhosted.org/packages/66/75/e8dd2075ade6a0f591a645ef50828255baa49191866fdd8a4d47414a6dc9/cumulusci-2.4.2.tar.gz"
+  sha256 "6f3c29b8833dc92d78408b195e03c7434c31272da2e58758fe340bda9c9b7d03"
   head "https://github.com/SFDO-Tooling/CumulusCI.git"
 
   depends_on "python"
@@ -20,8 +20,8 @@ class Cumulusci < Formula
   end
 
   resource "cffi" do
-    url "https://files.pythonhosted.org/packages/64/7c/27367b38e6cc3e1f49f193deb761fe75cda9f95da37b67b422e62281fcac/cffi-1.12.2.tar.gz"
-    sha256 "e113878a446c6228669144ae8a56e268c91b7f1fafae927adc4879d9849e0ea7"
+    url "https://files.pythonhosted.org/packages/93/1a/ab8c62b5838722f29f3daffcc8d4bd61844aa9b5f437341cc890ceee483b/cffi-1.12.3.tar.gz"
+    sha256 "041c81822e9f84b1d9c401182e174996f0bae9991f33725d059b771744290774"
   end
 
   resource "chardet" do
@@ -45,8 +45,8 @@ class Cumulusci < Formula
   end
 
   resource "cumulusci" do
-    url "https://files.pythonhosted.org/packages/80/da/9742e9799b1c7e04347b072f4f24c93b9675ae8c4b3c937fcc092a807a8e/cumulusci-2.4.1.tar.gz"
-    sha256 "41b6740db866da4f308e85d09b1edec6ecb71cce74862da54c59754107ed7f35"
+    url "https://files.pythonhosted.org/packages/66/75/e8dd2075ade6a0f591a645ef50828255baa49191866fdd8a4d47414a6dc9/cumulusci-2.4.2.tar.gz"
+    sha256 "6f3c29b8833dc92d78408b195e03c7434c31272da2e58758fe340bda9c9b7d03"
   end
 
   resource "docutils" do
@@ -125,8 +125,8 @@ class Cumulusci < Formula
   end
 
   resource "pytz" do
-    url "https://files.pythonhosted.org/packages/af/be/6c59e30e208a5f28da85751b93ec7b97e4612268bb054d0dff396e758a90/pytz-2018.9.tar.gz"
-    sha256 "d5f05e487007e29e03409f9398d074e158d920d36eb82eaf66fb1136b0c5374c"
+    url "https://files.pythonhosted.org/packages/df/d5/3e3ff673e8f3096921b3f1b79ce04b832e0100b4741573154b72b756a681/pytz-2019.1.tar.gz"
+    sha256 "d747dd3d23d77ef44c6a3526e274af6efeb0a6f1afd5a69ba4d5be4098c8e141"
   end
 
   resource "PyYAML" do
@@ -185,8 +185,8 @@ class Cumulusci < Formula
   end
 
   resource "SQLAlchemy" do
-    url "https://files.pythonhosted.org/packages/2a/9b/9b8aa2d5dbe2e4052cb4c84b8cf5e31686943f24b0565f436439bdc343b5/SQLAlchemy-1.3.2.tar.gz"
-    sha256 "d5432832f91d200c3d8b473a266d59442d825f9ea744c467e68c5d9a9479fbce"
+    url "https://files.pythonhosted.org/packages/2b/b2/e6f5c5efc68942edefaa924e8fbea0b32375baa434a511cbf6bb17769cf6/SQLAlchemy-1.3.3.tar.gz"
+    sha256 "91c54ca8345008fceaec987e10924bf07dcab36c442925357e5a467b36a38319"
   end
 
   resource "unicodecsv" do
@@ -200,8 +200,8 @@ class Cumulusci < Formula
   end
 
   resource "urllib3" do
-    url "https://files.pythonhosted.org/packages/b1/53/37d82ab391393565f2f831b8eedbffd57db5a718216f82f1a8b4d381a1c1/urllib3-1.24.1.tar.gz"
-    sha256 "de9529817c93f27c8ccbfead6985011db27bd0ddfcdb2d86f3f663385c6a9c22"
+    url "https://files.pythonhosted.org/packages/fd/fa/b21f4f03176463a6cccdb612a5ff71b927e5224e83483012747c12fc5d62/urllib3-1.24.2.tar.gz"
+    sha256 "9a247273df709c4fedb38c711e44292304f73f39ab01beda9f6b9fc375669ac3"
   end
 
   resource "xmltodict" do
