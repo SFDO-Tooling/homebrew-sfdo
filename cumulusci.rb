@@ -3,8 +3,8 @@ class Cumulusci < Formula
 
   desc "Python framework for building automation for Salesforce projects"
   homepage "https://github.com/SFDO-Tooling/CumulusCI"
-  url "https://files.pythonhosted.org/packages/66/75/e8dd2075ade6a0f591a645ef50828255baa49191866fdd8a4d47414a6dc9/cumulusci-2.4.2.tar.gz"
-  sha256 "6f3c29b8833dc92d78408b195e03c7434c31272da2e58758fe340bda9c9b7d03"
+  url "https://files.pythonhosted.org/packages/92/80/a81a8bf89263db947d8c715186b2e7f1754af263cd5fb391a8b8d490c5d5/cumulusci-2.4.3.tar.gz"
+  sha256 "aeb3f776ba1fdb602067ad1d7a7363e4bd06312646f3fd7e502fed9045d000af"
   head "https://github.com/SFDO-Tooling/CumulusCI.git"
 
   depends_on "python"
@@ -45,8 +45,8 @@ class Cumulusci < Formula
   end
 
   resource "cumulusci" do
-    url "https://files.pythonhosted.org/packages/66/75/e8dd2075ade6a0f591a645ef50828255baa49191866fdd8a4d47414a6dc9/cumulusci-2.4.2.tar.gz"
-    sha256 "6f3c29b8833dc92d78408b195e03c7434c31272da2e58758fe340bda9c9b7d03"
+    url "https://files.pythonhosted.org/packages/92/80/a81a8bf89263db947d8c715186b2e7f1754af263cd5fb391a8b8d490c5d5/cumulusci-2.4.3.tar.gz"
+    sha256 "aeb3f776ba1fdb602067ad1d7a7363e4bd06312646f3fd7e502fed9045d000af"
   end
 
   resource "docutils" do
