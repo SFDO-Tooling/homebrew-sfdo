@@ -3,8 +3,8 @@ class Cumulusci < Formula
 
   desc "Python framework for building automation for Salesforce projects"
   homepage "https://github.com/SFDO-Tooling/CumulusCI"
-  url "https://files.pythonhosted.org/packages/51/21/4e6090cb9e3f437fb104d3f683f05e5593dd2509b68b349b5891a2ae2642/cumulusci-2.5.0.tar.gz"
-  sha256 "a9c0756f457e92368535be18358e8f970aad6f8cb171b9ffcc75d361ec966e18"
+  url "https://files.pythonhosted.org/packages/41/5e/9c7a8b2177d9866cbaef381a9a12d52276b52c8bd8449ea4d10731fe4578/cumulusci-2.5.1.tar.gz"
+  sha256 "4d0d8dc17481d32b725f76745ce1761ee0a34c70d3ca1c33d4f92d049168e8ef"
   head "https://github.com/SFDO-Tooling/CumulusCI.git"
 
   depends_on "python"
@@ -45,8 +45,8 @@ class Cumulusci < Formula
   end
 
   resource "cumulusci" do
-    url "https://files.pythonhosted.org/packages/51/21/4e6090cb9e3f437fb104d3f683f05e5593dd2509b68b349b5891a2ae2642/cumulusci-2.5.0.tar.gz"
-    sha256 "a9c0756f457e92368535be18358e8f970aad6f8cb171b9ffcc75d361ec966e18"
+    url "https://files.pythonhosted.org/packages/41/5e/9c7a8b2177d9866cbaef381a9a12d52276b52c8bd8449ea4d10731fe4578/cumulusci-2.5.1.tar.gz"
+    sha256 "4d0d8dc17481d32b725f76745ce1761ee0a34c70d3ca1c33d4f92d049168e8ef"
   end
 
   resource "docutils" do
@@ -145,8 +145,8 @@ class Cumulusci < Formula
   end
 
   resource "robotframework" do
-    url "https://files.pythonhosted.org/packages/59/0f/233cc42cc21b95e6204a2e58964552c7242579c5890b531bc98a8834fed0/robotframework-3.1.1.zip"
-    sha256 "7e29b2ac415e6bdbde348d25c0c759c6d3df012c897b31dcf98fd2dd94cee7bd"
+    url "https://files.pythonhosted.org/packages/6c/04/2aee0fb807e14d2f2463217f81ac94c542b5b0c5809a7535f284a0bbb05c/robotframework-3.1.2.zip"
+    sha256 "f10dd7c0c8c7962a4f80dd1e026b5db731b9391bc6e1f9ebb96d685eb1230dbc"
   end
 
   resource "robotframework-seleniumlibrary" do
@@ -200,8 +200,8 @@ class Cumulusci < Formula
   end
 
   resource "urllib3" do
-    url "https://files.pythonhosted.org/packages/9a/8b/ea6d2beb2da6e331e9857d0a60b79ed4f72dcbc4e2c7f2d2521b0480fda2/urllib3-1.25.2.tar.gz"
-    sha256 "a53063d8b9210a7bdec15e7b272776b9d42b2fd6816401a0d43006ad2f9902db"
+    url "https://files.pythonhosted.org/packages/4c/13/2386233f7ee40aa8444b47f7463338f3cbdf00c316627558784e3f542f07/urllib3-1.25.3.tar.gz"
+    sha256 "dbe59173209418ae49d485b87d1681aefa36252ee85884c31346debd19463232"
   end
 
   resource "xmltodict" do
