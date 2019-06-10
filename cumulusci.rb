@@ -40,13 +40,13 @@ class Cumulusci < Formula
   end
 
   resource "cryptography" do
-    url "https://files.pythonhosted.org/packages/07/ca/bc827c5e55918ad223d59d299fff92f3563476c3b00d0a9157d9c0217449/cryptography-2.6.1.tar.gz"
-    sha256 "26c821cbeb683facb966045e2064303029d572a87ee69ca5a1bf54bf55f93ca6"
+    url "https://files.pythonhosted.org/packages/c2/95/f43d02315f4ec074219c6e3124a87eba1d2d12196c2767fadfdc07a83884/cryptography-2.7.tar.gz"
+    sha256 "e6347742ac8f35ded4a46ff835c60e68c22a536a8ae5c4422966d06946b6d4c6"
   end
 
   resource "cumulusci" do
-    url "https://files.pythonhosted.org/packages/41/5e/9c7a8b2177d9866cbaef381a9a12d52276b52c8bd8449ea4d10731fe4578/cumulusci-2.5.1.tar.gz"
-    sha256 "4d0d8dc17481d32b725f76745ce1761ee0a34c70d3ca1c33d4f92d049168e8ef"
+    url "https://files.pythonhosted.org/packages/7f/27/1e924c5726cd737e3a6b58cb9e1681e5c41c7f234d2b878ad28dcc91cb76/cumulusci-2.5.2.tar.gz"
+    sha256 "9dfa75a93e7cda9643db3c1128434eb084e17a4f5daacd45722b1ecc29b2dc9c"
   end
 
   resource "docutils" do
@@ -185,8 +185,8 @@ class Cumulusci < Formula
   end
 
   resource "SQLAlchemy" do
-    url "https://files.pythonhosted.org/packages/2b/b2/e6f5c5efc68942edefaa924e8fbea0b32375baa434a511cbf6bb17769cf6/SQLAlchemy-1.3.3.tar.gz"
-    sha256 "91c54ca8345008fceaec987e10924bf07dcab36c442925357e5a467b36a38319"
+    url "https://files.pythonhosted.org/packages/ba/37/094ecf4b218f20572986dc90fe8c6aed32e2a711bcd02ce8ef251fde2011/SQLAlchemy-1.3.4.tar.gz"
+    sha256 "c7fef198b43ef31dfd783d094fd5ee435ce8717592e6784c45ba337254998017"
   end
 
   resource "unicodecsv" do
