@@ -3,8 +3,8 @@ class Cumulusci < Formula
 
   desc "Python framework for building automation for Salesforce projects"
   homepage "https://github.com/SFDO-Tooling/CumulusCI"
-  url "https://files.pythonhosted.org/packages/50/87/39bf22d8f8eff78d1afc55b58553710f2f0b5d93de1706ac5538f41f78e8/cumulusci-2.5.4.tar.gz"
-  sha256 "d7cb2e3318f05ab2899fb1deb90a7314ce3f80ef7549203e03c86145ea6e5a9e"
+  url "https://files.pythonhosted.org/packages/3c/33/6f5598e5d5503b30db1be4e7ec6a00f5d6e3c4eb40a12635b0a608558d3a/cumulusci-2.5.5.tar.gz"
+  sha256 "5c4841a22442af54ff745ee5988283e6ce874f9432d880aaadcf5989c5a0aa45"
   head "https://github.com/SFDO-Tooling/CumulusCI.git"
 
   depends_on "python"
@@ -45,8 +45,8 @@ class Cumulusci < Formula
   end
 
   resource "cumulusci" do
-    url "https://files.pythonhosted.org/packages/50/87/39bf22d8f8eff78d1afc55b58553710f2f0b5d93de1706ac5538f41f78e8/cumulusci-2.5.4.tar.gz"
-    sha256 "d7cb2e3318f05ab2899fb1deb90a7314ce3f80ef7549203e03c86145ea6e5a9e"
+    url "https://files.pythonhosted.org/packages/3c/33/6f5598e5d5503b30db1be4e7ec6a00f5d6e3c4eb40a12635b0a608558d3a/cumulusci-2.5.5.tar.gz"
+    sha256 "5c4841a22442af54ff745ee5988283e6ce874f9432d880aaadcf5989c5a0aa45"
   end
 
   resource "docutils" do
@@ -95,8 +95,8 @@ class Cumulusci < Formula
   end
 
   resource "lxml" do
-    url "https://files.pythonhosted.org/packages/da/b5/d3e0d22649c63e92cb0902847da9ae155c1e801178ab5d272308f35f726e/lxml-4.3.4.tar.gz"
-    sha256 "3ce1c49d4b4a7bc75fb12acb3a6247bb7a91fe420542e6d671ba9187d12a12c2"
+    url "https://files.pythonhosted.org/packages/e1/f5/5eb3b491958dcfdcfa5daae3c655ab59276bc216ca015e44743c9c220e9e/lxml-4.4.0.tar.gz"
+    sha256 "3b57dc5ed7b6a7d852c961f2389ca99404c2b59fd2088baec6fbaca02f688be4"
   end
 
   resource "MarkupSafe" do
@@ -175,8 +175,8 @@ class Cumulusci < Formula
   end
 
   resource "simple-salesforce" do
-    url "https://files.pythonhosted.org/packages/15/17/4184dcc5fecbbb89f59f3fa81d3aa3acde7465a245fb82187e0a0a0386ef/simple-salesforce-0.74.2.tar.gz"
-    sha256 "60b834cf47505171e5bebfdbfcc0ca9676c960266a913014fa63e5db2e399fdc"
+    url "https://github.com/simple-salesforce/simple-salesforce/archive/v0.74.3.tar.gz"
+    sha256 "aa989c09d7f45103e2919a60323640b4bd0420369508fa82a7b2333247f6f103"
   end
 
   resource "six" do
@@ -185,8 +185,8 @@ class Cumulusci < Formula
   end
 
   resource "SQLAlchemy" do
-    url "https://files.pythonhosted.org/packages/62/3c/9dda60fd99dbdcbc6312c799a3ec9a261f95bc12f2874a35818f04db2dd9/SQLAlchemy-1.3.5.tar.gz"
-    sha256 "c30925d60af95443458ebd7525daf791f55762b106049ae71e18f8dd58084c2f"
+    url "https://files.pythonhosted.org/packages/55/98/56b7155bab287cd0c78dee26258835db36e91f2efef41f125ed6f6f1f334/SQLAlchemy-1.3.6.tar.gz"
+    sha256 "217e7fc52199a05851eee9b6a0883190743c4fb9c8ac4313ccfceaffd852b0ff"
   end
 
   resource "unicodecsv" do
