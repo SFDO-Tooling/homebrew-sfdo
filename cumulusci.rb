@@ -175,8 +175,8 @@ class Cumulusci < Formula
   end
 
   resource "simple-salesforce" do
-    url ""
-    sha256 ""
+    url "https://github.com/simple-salesforce/simple-salesforce/archive/v0.74.3.tar.gz"
+    sha256 "aa989c09d7f45103e2919a60323640b4bd0420369508fa82a7b2333247f6f103"
   end
 
   resource "six" do
