@@ -175,8 +175,8 @@ class Cumulusci < Formula
   end
 
   resource "simple-salesforce" do
-    url "https://github.com/simple-salesforce/simple-salesforce/archive/v0.74.3.tar.gz"
-    sha256 "aa989c09d7f45103e2919a60323640b4bd0420369508fa82a7b2333247f6f103"
+    url "https://files.pythonhosted.org/packages/a5/aa/5b5293dd8b7cec7798fd6612ad8ed40e9bb77b4249436b6b7c265fc19118/simple_salesforce-0.74.3-py2.py3-none-any.whl"
+    sha256 "0bf4065a7769388d8f830bfc31200e6d2d6de50d19034e4113b59831dd72a438"
   end
 
   resource "six" do
@@ -210,19 +210,7 @@ class Cumulusci < Formula
   end
 
   def install
-    xy = Language::Python.major_minor_version "python3"
-    site_packages = libexec/"lib/python#{xy}/site-packages"
-    ENV.prepend_create_path "PYTHONPATH", site_packages
-
-    deps = resources.map(&:name).to_set
-    deps.each do |r|
-      resource(r).stage do
-        system "python3", *Language::Python.setup_install_args(libexec)
-      end
-    end
-
-    bin.install Dir["#{libexec}/bin/cci"]
-    bin.env_script_all_files(libexec/"bin", :PYTHONPATH => ENV["PYTHONPATH"])
+    virtualenv_install_with_resources
   end
 
   test do
