@@ -44,11 +44,6 @@ class Cumulusci < Formula
     sha256 "e6347742ac8f35ded4a46ff835c60e68c22a536a8ae5c4422966d06946b6d4c6"
   end
 
-  resource "cumulusci" do
-    url "https://files.pythonhosted.org/packages/c1/ec/90b4418629f760eeb91541d562ded571245661fdf38b95d03de3d4fded14/cumulusci-2.5.6.tar.gz"
-    sha256 "dad735c3de0df7c51c2c83341e8bef4cb9e2b2f1d961e93ba70100d105031ac7"
-  end
-
   resource "docutils" do
     url "https://files.pythonhosted.org/packages/84/f4/5771e41fdf52aabebbadecc9381d11dea0fa34e4759b4071244fa094804c/docutils-0.14.tar.gz"
     sha256 "51e64ef2ebfb29cae1faa133b3710143496eca21c530f3f71424d77687764274"
