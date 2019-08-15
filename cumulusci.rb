@@ -3,8 +3,8 @@ class Cumulusci < Formula
 
   desc "Python framework for building automation for Salesforce projects"
   homepage "https://github.com/SFDO-Tooling/CumulusCI"
-  url "https://files.pythonhosted.org/packages/3c/33/6f5598e5d5503b30db1be4e7ec6a00f5d6e3c4eb40a12635b0a608558d3a/cumulusci-2.5.5.tar.gz"
-  sha256 "5c4841a22442af54ff745ee5988283e6ce874f9432d880aaadcf5989c5a0aa45"
+  url "https://files.pythonhosted.org/packages/c1/ec/90b4418629f760eeb91541d562ded571245661fdf38b95d03de3d4fded14/cumulusci-2.5.6.tar.gz"
+  sha256 "dad735c3de0df7c51c2c83341e8bef4cb9e2b2f1d961e93ba70100d105031ac7"
   head "https://github.com/SFDO-Tooling/CumulusCI.git"
 
   depends_on "python"
@@ -45,8 +45,8 @@ class Cumulusci < Formula
   end
 
   resource "cumulusci" do
-    url "https://files.pythonhosted.org/packages/3c/33/6f5598e5d5503b30db1be4e7ec6a00f5d6e3c4eb40a12635b0a608558d3a/cumulusci-2.5.5.tar.gz"
-    sha256 "5c4841a22442af54ff745ee5988283e6ce874f9432d880aaadcf5989c5a0aa45"
+    url "https://files.pythonhosted.org/packages/c1/ec/90b4418629f760eeb91541d562ded571245661fdf38b95d03de3d4fded14/cumulusci-2.5.6.tar.gz"
+    sha256 "dad735c3de0df7c51c2c83341e8bef4cb9e2b2f1d961e93ba70100d105031ac7"
   end
 
   resource "docutils" do
@@ -57,6 +57,16 @@ class Cumulusci < Formula
   resource "entrypoints" do
     url "https://files.pythonhosted.org/packages/b4/ef/063484f1f9ba3081e920ec9972c96664e2edb9fdc3d8669b0e3b8fc0ad7c/entrypoints-0.3.tar.gz"
     sha256 "c70dd71abe5a8c85e55e12c19bd91ccfeec11a6e99044204511f9ed547d48451"
+  end
+
+  resource "factory-boy" do
+    url "https://files.pythonhosted.org/packages/5d/28/9f2284328547a3e29b39422a0a138d118a57686c0b4479f00c72240668d7/factory_boy-2.12.0.tar.gz"
+    sha256 "faf48d608a1735f0d0a3c9cbf536d64f9132b547dae7ba452c4d99a79e84a370"
+  end
+
+  resource "Faker" do
+    url "https://files.pythonhosted.org/packages/25/f4/fced6499dd8bdb4181df08bf8d8da98da1acfee81508e9fb6792eeade8de/Faker-2.0.0.tar.gz"
+    sha256 "96ad7902706f2409a2d0c3de5132f69b413555a419bacec99d3f16e657895b47"
   end
 
   resource "future" do
@@ -95,18 +105,13 @@ class Cumulusci < Formula
   end
 
   resource "lxml" do
-    url "https://files.pythonhosted.org/packages/e1/f5/5eb3b491958dcfdcfa5daae3c655ab59276bc216ca015e44743c9c220e9e/lxml-4.4.0.tar.gz"
-    sha256 "3b57dc5ed7b6a7d852c961f2389ca99404c2b59fd2088baec6fbaca02f688be4"
+    url "https://files.pythonhosted.org/packages/c4/43/3f1e7d742e2a7925be180b6af5e0f67d38de2f37560365ac1a0b9a04c015/lxml-4.4.1.tar.gz"
+    sha256 "c81cb40bff373ab7a7446d6bbca0190bccc5be3448b47b51d729e37799bb5692"
   end
 
   resource "MarkupSafe" do
     url "https://files.pythonhosted.org/packages/b9/2e/64db92e53b86efccfaea71321f597fa2e1b2bd3853d8ce658568f7a13094/MarkupSafe-1.1.1.tar.gz"
     sha256 "29872e92839765e546828bb7754a68c418d927cd064fd4708fab9fe9c8bb116b"
-  end
-
-  resource "plaintable" do
-    url "https://files.pythonhosted.org/packages/fc/3e/948a6007ef6fdbcfe9a228b8e3c46b75c86c40a60acf1909438b6adb9d5a/plaintable-0.1.1.tar.gz"
-    sha256 "7ac1948e2a49a98dbb72d8c68d53c3e6e8dfb571009a9a7cf7bf18e94b9e482e"
   end
 
   resource "pycparser" do
@@ -125,13 +130,13 @@ class Cumulusci < Formula
   end
 
   resource "pytz" do
-    url "https://files.pythonhosted.org/packages/df/d5/3e3ff673e8f3096921b3f1b79ce04b832e0100b4741573154b72b756a681/pytz-2019.1.tar.gz"
-    sha256 "d747dd3d23d77ef44c6a3526e274af6efeb0a6f1afd5a69ba4d5be4098c8e141"
+    url "https://files.pythonhosted.org/packages/27/c0/fbd352ca76050952a03db776d241959d5a2ee1abddfeb9e2a53fdb489be4/pytz-2019.2.tar.gz"
+    sha256 "26c0b32e437e54a18161324a2fca3c4b9846b74a8dccddd843113109e1116b32"
   end
 
   resource "PyYAML" do
-    url "https://files.pythonhosted.org/packages/a3/65/837fefac7475963d1eccf4aa684c23b95aa6c1d033a2c5965ccb11e22623/PyYAML-5.1.1.tar.gz"
-    sha256 "b4bb4d3f5e232425e25dda21c070ce05168a786ac9eda43768ab7f3ac2770955"
+    url "https://files.pythonhosted.org/packages/e3/e8/b3212641ee2718d556df0f23f78de8303f068fe29cdaa7a91018849582fe/PyYAML-5.1.2.tar.gz"
+    sha256 "01adf0b6c6f61bd11af6e10ca52b7d4057dd0be0343eb9283c878cf3af56aee4"
   end
 
   resource "raven" do
@@ -147,6 +152,11 @@ class Cumulusci < Formula
   resource "robotframework" do
     url "https://files.pythonhosted.org/packages/6c/04/2aee0fb807e14d2f2463217f81ac94c542b5b0c5809a7535f284a0bbb05c/robotframework-3.1.2.zip"
     sha256 "f10dd7c0c8c7962a4f80dd1e026b5db731b9391bc6e1f9ebb96d685eb1230dbc"
+  end
+
+  resource "robotframework-lint" do
+    url "https://files.pythonhosted.org/packages/ec/c8/e1db19ec1d782a5c487d8d9d07166f6e74d5f43b8f58eae36de380076377/robotframework-lint-1.0.tar.gz"
+    sha256 "55c26e76f9b11ed54446252b1df71ed993497b36b971ce9bc52d3b86f6501b4d"
   end
 
   resource "robotframework-seleniumlibrary" do
@@ -175,8 +185,8 @@ class Cumulusci < Formula
   end
 
   resource "simple-salesforce" do
-    url "https://github.com/simple-salesforce/simple-salesforce/archive/v0.74.3.tar.gz"
-    sha256 "aa989c09d7f45103e2919a60323640b4bd0420369508fa82a7b2333247f6f103"
+    url "https://files.pythonhosted.org/packages/15/17/4184dcc5fecbbb89f59f3fa81d3aa3acde7465a245fb82187e0a0a0386ef/simple-salesforce-0.74.2.tar.gz"
+    sha256 "60b834cf47505171e5bebfdbfcc0ca9676c960266a913014fa63e5db2e399fdc"
   end
 
   resource "six" do
@@ -187,6 +197,16 @@ class Cumulusci < Formula
   resource "SQLAlchemy" do
     url "https://files.pythonhosted.org/packages/55/98/56b7155bab287cd0c78dee26258835db36e91f2efef41f125ed6f6f1f334/SQLAlchemy-1.3.6.tar.gz"
     sha256 "217e7fc52199a05851eee9b6a0883190743c4fb9c8ac4313ccfceaffd852b0ff"
+  end
+
+  resource "terminaltables" do
+    url "https://files.pythonhosted.org/packages/9b/c4/4a21174f32f8a7e1104798c445dacdc1d4df86f2f26722767034e4de4bff/terminaltables-3.1.0.tar.gz"
+    sha256 "f3eb0eb92e3833972ac36796293ca0906e998dc3be91fbe1f8615b331b853b81"
+  end
+
+  resource "text-unidecode" do
+    url "https://files.pythonhosted.org/packages/f0/a2/40adaae7cbdd007fb12777e550b5ce344b56189921b9f70f37084c021ca4/text-unidecode-1.2.tar.gz"
+    sha256 "5a1375bb2ba7968740508ae38d92e1f889a0832913cb1c447d5e2046061a396d"
   end
 
   resource "unicodecsv" do
@@ -210,19 +230,68 @@ class Cumulusci < Formula
   end
 
   def install
-    xy = Language::Python.major_minor_version "python3"
-    site_packages = libexec/"lib/python#{xy}/site-packages"
-    ENV.prepend_create_path "PYTHONPATH", site_packages
+    venv = virtualenv_create(libexec, "python3")
+    resource("entrypoints").stage do
+      # Without removing this file, 
+Usage:   
+  pip <command> [options]
 
-    deps = resources.map(&:name).to_set
-    deps.each do |r|
-      resource(r).stage do
-        system "python3", *Language::Python.setup_install_args(libexec)
-      end
+Commands:
+  install                     Install packages.
+  download                    Download packages.
+  uninstall                   Uninstall packages.
+  freeze                      Output installed packages in requirements format.
+  list                        List installed packages.
+  show                        Show information about installed packages.
+  check                       Verify installed packages have compatible dependencies.
+  config                      Manage local and global configuration.
+  search                      Search PyPI for packages.
+  wheel                       Build wheels from your requirements.
+  hash                        Compute hashes of package archives.
+  completion                  A helper command used for command completion.
+  debug                       Show information useful for debugging.
+  help                        Show help for commands.
+
+General Options:
+  -h, --help                  Show help.
+  --isolated                  Run pip in an isolated mode, ignoring
+                              environment variables and user configuration.
+  -v, --verbose               Give more output. Option is additive, and can be
+                              used up to 3 times.
+  -V, --version               Show version and exit.
+  -q, --quiet                 Give less output. Option is additive, and can be
+                              used up to 3 times (corresponding to WARNING,
+                              ERROR, and CRITICAL logging levels).
+  --log <path>                Path to a verbose appending log.
+  --proxy <proxy>             Specify a proxy in the form
+                              [user:passwd@]proxy.server:port.
+  --retries <retries>         Maximum number of retries each connection should
+                              attempt (default 5 times).
+  --timeout <sec>             Set the socket timeout (default 15 seconds).
+  --exists-action <action>    Default action when a path already exists:
+                              (s)witch, (i)gnore, (w)ipe, (b)ackup, (a)bort.
+  --trusted-host <hostname>   Mark this host as trusted, even though it does
+                              not have valid or any HTTPS.
+  --cert <path>               Path to alternate CA bundle.
+  --client-cert <path>        Path to SSL client certificate, a single file
+                              containing the private key and the certificate
+                              in PEM format.
+  --cache-dir <dir>           Store the cache data in <dir>.
+  --no-cache-dir              Disable the cache.
+  --disable-pip-version-check
+                              Don't periodically check PyPI to determine
+                              whether a new version of pip is available for
+                              download. Implied with --no-index.
+  --no-color                  Suppress colored output will ignore the  file and
+      # attempt to download the [](https://github.com/takluyver/flit)
+      # build system.
+      rm_f "pyproject.toml"
+      venv.pip_install Pathname.pwd
     end
-
-    bin.install Dir["#{libexec}/bin/cci"]
-    bin.env_script_all_files(libexec/"bin", :PYTHONPATH => ENV["PYTHONPATH"])
+    (resources.map(&:name).to_set - ["entrypoints"]).each do |r|
+      venv.pip_install resource(r)
+    end
+    venv.pip_install_and_link buildpath
   end
 
   test do
