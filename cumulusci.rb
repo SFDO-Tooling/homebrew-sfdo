@@ -44,6 +44,11 @@ class Cumulusci < Formula
     sha256 "e6347742ac8f35ded4a46ff835c60e68c22a536a8ae5c4422966d06946b6d4c6"
   end
 
+  resource "cumulusci" do
+    url "https://files.pythonhosted.org/packages/c1/ec/90b4418629f760eeb91541d562ded571245661fdf38b95d03de3d4fded14/cumulusci-2.5.6.tar.gz"
+    sha256 "dad735c3de0df7c51c2c83341e8bef4cb9e2b2f1d961e93ba70100d105031ac7"
+  end
+
   resource "docutils" do
     url "https://files.pythonhosted.org/packages/84/f4/5771e41fdf52aabebbadecc9381d11dea0fa34e4759b4071244fa094804c/docutils-0.14.tar.gz"
     sha256 "51e64ef2ebfb29cae1faa133b3710143496eca21c530f3f71424d77687764274"
@@ -225,18 +230,19 @@ class Cumulusci < Formula
   end
 
   def install
-    venv = virtualenv_create(libexec, "python3")
-    resource("entrypoints").stage do
-      # Without removing this file, pip will ignore the setup.py file and
-      # attempt to download the [flit](https://github.com/takluyver/flit)
-      # build system.
-      rm_f "pyproject.toml"
-      venv.pip_install Pathname.pwd
+    xy = Language::Python.major_minor_version "python3"
+    site_packages = libexec/"lib/python#{xy}/site-packages"
+    ENV.prepend_create_path "PYTHONPATH", site_packages
+
+    deps = resources.map(&:name).to_set
+    deps.each do |r|
+      resource(r).stage do
+        system "python3", *Language::Python.setup_install_args(libexec)
+      end
     end
-    (resources.map(&:name).to_set - ["entrypoints"]).each do |r|
-      venv.pip_install resource(r)
-    end
-    venv.pip_install_and_link buildpath
+
+    bin.install Dir["#{libexec}/bin/cci"]
+    bin.env_script_all_files(libexec/"bin", :PYTHONPATH => ENV["PYTHONPATH"])
   end
 
   test do
