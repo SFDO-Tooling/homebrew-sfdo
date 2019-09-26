@@ -3,8 +3,8 @@ class Cumulusci < Formula
 
   desc "Python framework for building automation for Salesforce projects"
   homepage "https://github.com/SFDO-Tooling/CumulusCI"
-  url "https://files.pythonhosted.org/packages/54/0f/bd7387eabb4bb336fe969ad017660b71fcaa84c23d95e9e57f04e7f43b35/cumulusci-2.5.8.tar.gz"
-  sha256 "d9494acfa5c2ef71d51e684e1a0df97b4969a1aa35405c61c147f6e1be6425f3"
+  url "https://files.pythonhosted.org/packages/62/8d/5d6ed8f20be16dcc0bf178bd150e00e4d7019fe8a7a81a8784e312ddb66a/cumulusci-2.5.9.tar.gz"
+  sha256 "65cf8c6690a2aff31aa2e75dfb61396c9b13e608dd76d56eb93df107a745a029"
   head "https://github.com/SFDO-Tooling/CumulusCI.git"
 
   depends_on "python"
@@ -15,8 +15,8 @@ class Cumulusci < Formula
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/c5/67/5d0548226bcc34468e23a0333978f0e23d28d0b3f0c71a151aef9c3f7680/certifi-2019.6.16.tar.gz"
-    sha256 "945e3ba63a0b9f577b1395204e13c3a231f9bc0223888be653286534e5873695"
+    url "https://files.pythonhosted.org/packages/62/85/7585750fd65599e88df0fed59c74f5075d4ea2fe611deceb95dd1c2fb25b/certifi-2019.9.11.tar.gz"
+    sha256 "e4f3620cfea4f83eedc95b24abd9cd56f3c4b146dd0177e83a21b4eb49e21e50"
   end
 
   resource "cffi" do
@@ -45,8 +45,8 @@ class Cumulusci < Formula
   end
 
   resource "cumulusci" do
-    url "https://files.pythonhosted.org/packages/54/0f/bd7387eabb4bb336fe969ad017660b71fcaa84c23d95e9e57f04e7f43b35/cumulusci-2.5.8.tar.gz"
-    sha256 "d9494acfa5c2ef71d51e684e1a0df97b4969a1aa35405c61c147f6e1be6425f3"
+    url "https://files.pythonhosted.org/packages/62/8d/5d6ed8f20be16dcc0bf178bd150e00e4d7019fe8a7a81a8784e312ddb66a/cumulusci-2.5.9.tar.gz"
+    sha256 "65cf8c6690a2aff31aa2e75dfb61396c9b13e608dd76d56eb93df107a745a029"
   end
 
   resource "docutils" do
@@ -65,8 +65,8 @@ class Cumulusci < Formula
   end
 
   resource "Faker" do
-    url "https://files.pythonhosted.org/packages/38/04/32659967e8ab599e3a4bf413cb64e6b261552806c5e29f573e74c2cc6c51/Faker-2.0.1.tar.gz"
-    sha256 "1d3f700e8dfcefd6e657118d71405d53e86974448aba78884f119bbd84c0cddf"
+    url "https://files.pythonhosted.org/packages/e6/44/735dd3ca245b9ac36659274767ddba71480e161e919530b9f891d2dd4a60/Faker-2.0.2.tar.gz"
+    sha256 "45cc9cca3de8beba5a2da3bd82a6e5544f53da1a702645c8485f682366c15026"
   end
 
   resource "future" do
@@ -210,8 +210,8 @@ class Cumulusci < Formula
   end
 
   resource "text-unidecode" do
-    url "https://files.pythonhosted.org/packages/f0/a2/40adaae7cbdd007fb12777e550b5ce344b56189921b9f70f37084c021ca4/text-unidecode-1.2.tar.gz"
-    sha256 "5a1375bb2ba7968740508ae38d92e1f889a0832913cb1c447d5e2046061a396d"
+    url "https://files.pythonhosted.org/packages/ab/e2/e9a00f0ccb71718418230718b3d900e71a5d16e701a3dae079a21e9cd8f8/text-unidecode-1.3.tar.gz"
+    sha256 "bad6603bb14d279193107714b288be206cac565dfa49aa5b105294dd5c4aab93"
   end
 
   resource "unicodecsv" do
@@ -225,8 +225,8 @@ class Cumulusci < Formula
   end
 
   resource "urllib3" do
-    url "https://files.pythonhosted.org/packages/4c/13/2386233f7ee40aa8444b47f7463338f3cbdf00c316627558784e3f542f07/urllib3-1.25.3.tar.gz"
-    sha256 "dbe59173209418ae49d485b87d1681aefa36252ee85884c31346debd19463232"
+    url "https://files.pythonhosted.org/packages/3c/31/aa26375d7028397ffa46765f91f5ccb087d37a99437b78259eb46f275f5b/urllib3-1.25.5.tar.gz"
+    sha256 "2f3eadfea5d92bc7899e75b5968410b749a054b492d5a6379c1344a1481bc2cb"
   end
 
   resource "xmltodict" do
