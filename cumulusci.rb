@@ -3,8 +3,8 @@ class Cumulusci < Formula
 
   desc "Python framework for building automation for Salesforce projects"
   homepage "https://github.com/SFDO-Tooling/CumulusCI"
-  url "https://files.pythonhosted.org/packages/62/8d/5d6ed8f20be16dcc0bf178bd150e00e4d7019fe8a7a81a8784e312ddb66a/cumulusci-2.5.9.tar.gz"
-  sha256 "65cf8c6690a2aff31aa2e75dfb61396c9b13e608dd76d56eb93df107a745a029"
+  url "https://files.pythonhosted.org/packages/cf/f1/dc6a6fd750a233d2cd28b6817cc1b4b6d09b1e7905392c493b5d7467217d/cumulusci-3.0.0.tar.gz"
+  sha256 "f207f230b0726b071daf07fac7fdc3263b21b78256a5af03a6a7e19de3700da6"
   head "https://github.com/SFDO-Tooling/CumulusCI.git"
 
   depends_on "python"
@@ -45,13 +45,13 @@ class Cumulusci < Formula
   end
 
   resource "cumulusci" do
-    url "https://files.pythonhosted.org/packages/62/8d/5d6ed8f20be16dcc0bf178bd150e00e4d7019fe8a7a81a8784e312ddb66a/cumulusci-2.5.9.tar.gz"
-    sha256 "65cf8c6690a2aff31aa2e75dfb61396c9b13e608dd76d56eb93df107a745a029"
+    url "https://files.pythonhosted.org/packages/cf/f1/dc6a6fd750a233d2cd28b6817cc1b4b6d09b1e7905392c493b5d7467217d/cumulusci-3.0.0.tar.gz"
+    sha256 "f207f230b0726b071daf07fac7fdc3263b21b78256a5af03a6a7e19de3700da6"
   end
 
   resource "docutils" do
-    url "https://files.pythonhosted.org/packages/84/f4/5771e41fdf52aabebbadecc9381d11dea0fa34e4759b4071244fa094804c/docutils-0.14.tar.gz"
-    sha256 "51e64ef2ebfb29cae1faa133b3710143496eca21c530f3f71424d77687764274"
+    url "https://files.pythonhosted.org/packages/93/22/953e071b589b0b1fee420ab06a0d15e5aa0c7470eb9966d60393ce58ad61/docutils-0.15.2.tar.gz"
+    sha256 "a2aeea129088da402665e92e0b25b04b073c04b2dce4ab65caaa38b7ce2e1a99"
   end
 
   resource "entrypoints" do
@@ -67,11 +67,6 @@ class Cumulusci < Formula
   resource "Faker" do
     url "https://files.pythonhosted.org/packages/e6/44/735dd3ca245b9ac36659274767ddba71480e161e919530b9f891d2dd4a60/Faker-2.0.2.tar.gz"
     sha256 "45cc9cca3de8beba5a2da3bd82a6e5544f53da1a702645c8485f682366c15026"
-  end
-
-  resource "future" do
-    url "https://files.pythonhosted.org/packages/90/52/e20466b85000a181e1e144fd8305caf2cf475e2f9674e797b222f8105f5f/future-0.17.1.tar.gz"
-    sha256 "67045236dcfd6816dc439556d009594abf643e5eb48992e36beac09c2ca659b8"
   end
 
   resource "github3.py" do
@@ -100,8 +95,8 @@ class Cumulusci < Formula
   end
 
   resource "keyring" do
-    url "https://files.pythonhosted.org/packages/5e/4a/d1e3f7284b00d7d59dfa436a773a02cb360378ae6f7f225c587b39cc5d2f/keyring-18.0.1.tar.gz"
-    sha256 "67d6cc0132bd77922725fae9f18366bb314fd8f95ff4d323a4df41890a96a838"
+    url "https://files.pythonhosted.org/packages/ee/46/77fdb7cd2b0f1f684afbc35a59b3d7ebb6961fe528f97b86900002968914/keyring-19.2.0.tar.gz"
+    sha256 "91037ccaf0c9a112a76f7740e4a416b9457a69b66c2799421581bee710a974b3"
   end
 
   resource "lxml" do
