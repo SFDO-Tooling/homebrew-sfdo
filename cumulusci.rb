@@ -3,15 +3,15 @@ class Cumulusci < Formula
 
   desc "Python framework for building automation for Salesforce projects"
   homepage "https://github.com/SFDO-Tooling/CumulusCI"
-  url "https://files.pythonhosted.org/packages/cf/f1/dc6a6fd750a233d2cd28b6817cc1b4b6d09b1e7905392c493b5d7467217d/cumulusci-3.0.0.tar.gz"
-  sha256 "f207f230b0726b071daf07fac7fdc3263b21b78256a5af03a6a7e19de3700da6"
+  url "https://files.pythonhosted.org/packages/91/04/9664636500c81f7fe5d8dcf1005794ca5eef76cfb17a7d888f320a14f673/cumulusci-3.0.1.tar.gz"
+  sha256 "f4e1b2da94d7398c38ee4a503385c430217b7a4de0ebead1c610270082c43667"
   head "https://github.com/SFDO-Tooling/CumulusCI.git"
 
   depends_on "python"
 
   resource "asn1crypto" do
-    url "https://files.pythonhosted.org/packages/fc/f1/8db7daa71f414ddabfa056c4ef792e1461ff655c2ae2928a2b675bfed6b4/asn1crypto-0.24.0.tar.gz"
-    sha256 "9d5c20441baf0cb60a4ac34cc447c6c189024b6b4c6cd7877034f4965c464e49"
+    url "https://files.pythonhosted.org/packages/04/20/ac105ae01c29580ebff75bbf1effb69d788bfa54a8336a8f14399b09e2e1/asn1crypto-1.1.0.tar.gz"
+    sha256 "5abe83e773026162e4869f4ac16edf7554f661e8cc0bb6d2be3bc6915456731b"
   end
 
   resource "certifi" do
@@ -45,8 +45,8 @@ class Cumulusci < Formula
   end
 
   resource "cumulusci" do
-    url "https://files.pythonhosted.org/packages/cf/f1/dc6a6fd750a233d2cd28b6817cc1b4b6d09b1e7905392c493b5d7467217d/cumulusci-3.0.0.tar.gz"
-    sha256 "f207f230b0726b071daf07fac7fdc3263b21b78256a5af03a6a7e19de3700da6"
+    url "https://files.pythonhosted.org/packages/91/04/9664636500c81f7fe5d8dcf1005794ca5eef76cfb17a7d888f320a14f673/cumulusci-3.0.1.tar.gz"
+    sha256 "f4e1b2da94d7398c38ee4a503385c430217b7a4de0ebead1c610270082c43667"
   end
 
   resource "docutils" do
@@ -65,8 +65,8 @@ class Cumulusci < Formula
   end
 
   resource "Faker" do
-    url "https://files.pythonhosted.org/packages/e6/44/735dd3ca245b9ac36659274767ddba71480e161e919530b9f891d2dd4a60/Faker-2.0.2.tar.gz"
-    sha256 "45cc9cca3de8beba5a2da3bd82a6e5544f53da1a702645c8485f682366c15026"
+    url "https://files.pythonhosted.org/packages/80/e9/784042c121c1eee9b68dd23100404d957bf5bdb9a772d5a639791b9fe032/Faker-2.0.3.tar.gz"
+    sha256 "5e8c755c619f332d5ec28b7586389665f136bcf528e165eb925e87c06a63eda7"
   end
 
   resource "github3.py" do
@@ -85,8 +85,8 @@ class Cumulusci < Formula
   end
 
   resource "Jinja2" do
-    url "https://files.pythonhosted.org/packages/93/ea/d884a06f8c7f9b7afbc8138b762e80479fb17aedbbe2b06515a12de9378d/Jinja2-2.10.1.tar.gz"
-    sha256 "065c4f02ebe7f7cf559e49ee5a95fb800a9e4528727aec6f24402a5374c65013"
+    url "https://files.pythonhosted.org/packages/7b/db/1d037ccd626d05a7a47a1b81ea73775614af83c2b3e53d86a0bb41d8d799/Jinja2-2.10.3.tar.gz"
+    sha256 "9fe95f19286cfefaa917656583d020be14e7859c6b0252588391e47db34527de"
   end
 
   resource "jwcrypto" do
@@ -130,8 +130,8 @@ class Cumulusci < Formula
   end
 
   resource "pytz" do
-    url "https://files.pythonhosted.org/packages/27/c0/fbd352ca76050952a03db776d241959d5a2ee1abddfeb9e2a53fdb489be4/pytz-2019.2.tar.gz"
-    sha256 "26c0b32e437e54a18161324a2fca3c4b9846b74a8dccddd843113109e1116b32"
+    url "https://files.pythonhosted.org/packages/82/c3/534ddba230bd4fbbd3b7a3d35f3341d014cca213f369a9940925e7e5f691/pytz-2019.3.tar.gz"
+    sha256 "b02c06db6cf09c12dd25137e563b31700d3b80fcc4ad23abb7a315f2789819be"
   end
 
   resource "PyYAML" do
@@ -195,8 +195,8 @@ class Cumulusci < Formula
   end
 
   resource "SQLAlchemy" do
-    url "https://files.pythonhosted.org/packages/fc/49/82d64d705ced344ba458197dadab30cfa745f9650ee22260ac2b275d288c/SQLAlchemy-1.3.8.tar.gz"
-    sha256 "2f8ff566a4d3a92246d367f2e9cd6ed3edeef670dcd6dda6dfdc9efed88bcd80"
+    url "https://files.pythonhosted.org/packages/14/0e/487f7fc1e432cec50d2678f94e4133f2b9e9356e35bacc30d73e8cb831fc/SQLAlchemy-1.3.10.tar.gz"
+    sha256 "0f0768b5db594517e1f5e1572c73d14cf295140756431270d89496dc13d5e46c"
   end
 
   resource "terminaltables" do
@@ -220,8 +220,8 @@ class Cumulusci < Formula
   end
 
   resource "urllib3" do
-    url "https://files.pythonhosted.org/packages/3c/31/aa26375d7028397ffa46765f91f5ccb087d37a99437b78259eb46f275f5b/urllib3-1.25.5.tar.gz"
-    sha256 "2f3eadfea5d92bc7899e75b5968410b749a054b492d5a6379c1344a1481bc2cb"
+    url "https://files.pythonhosted.org/packages/ff/44/29655168da441dff66de03952880c6e2d17b252836ff1aa4421fba556424/urllib3-1.25.6.tar.gz"
+    sha256 "9a107b99a5393caf59c7aa3c1249c16e6879447533d0887f4336dde834c7be86"
   end
 
   resource "xmltodict" do
