@@ -3,15 +3,15 @@ class Cumulusci < Formula
 
   desc "Python framework for building automation for Salesforce projects"
   homepage "https://github.com/SFDO-Tooling/CumulusCI"
-  url "https://files.pythonhosted.org/packages/83/09/91498d7518b753ea679418d376e743693f18b5cb782d7075b5cc453776c5/cumulusci-3.0.2.tar.gz"
-  sha256 "e13642007a40060834440b019aa47e06d9d36a92321ebd75e156b3d1a5f416c0"
+  url "https://files.pythonhosted.org/packages/b0/3d/b6e95ec3809f8793641c83446d8906def03226d6a096a87daa7c46bd184d/cumulusci-3.1.0.tar.gz"
+  sha256 "3c606ea6eaa84e488489998de752db2465fa3ce6f8affb088dab750b57b26446"
   head "https://github.com/SFDO-Tooling/CumulusCI.git"
 
   depends_on "python"
 
   resource "asn1crypto" do
-    url "https://files.pythonhosted.org/packages/04/20/ac105ae01c29580ebff75bbf1effb69d788bfa54a8336a8f14399b09e2e1/asn1crypto-1.1.0.tar.gz"
-    sha256 "5abe83e773026162e4869f4ac16edf7554f661e8cc0bb6d2be3bc6915456731b"
+    url "https://files.pythonhosted.org/packages/c1/a9/86bfedaf41ca590747b4c9075bc470d0b2ec44fb5db5d378bc61447b3b6b/asn1crypto-1.2.0.tar.gz"
+    sha256 "87620880a477123e01177a1f73d0f327210b43a3cdbd714efcd2fa49a8d7b384"
   end
 
   resource "certifi" do
@@ -20,8 +20,8 @@ class Cumulusci < Formula
   end
 
   resource "cffi" do
-    url "https://files.pythonhosted.org/packages/93/1a/ab8c62b5838722f29f3daffcc8d4bd61844aa9b5f437341cc890ceee483b/cffi-1.12.3.tar.gz"
-    sha256 "041c81822e9f84b1d9c401182e174996f0bae9991f33725d059b771744290774"
+    url "https://files.pythonhosted.org/packages/0d/aa/c5ac2f337d9a10ee95d160d47beb8d9400e1b2a46bb94990a0409fe6d133/cffi-1.13.1.tar.gz"
+    sha256 "558b3afef987cf4b17abd849e7bedf64ee12b28175d564d05b628a0f9355599b"
   end
 
   resource "chardet" do
@@ -40,13 +40,13 @@ class Cumulusci < Formula
   end
 
   resource "cryptography" do
-    url "https://files.pythonhosted.org/packages/c2/95/f43d02315f4ec074219c6e3124a87eba1d2d12196c2767fadfdc07a83884/cryptography-2.7.tar.gz"
-    sha256 "e6347742ac8f35ded4a46ff835c60e68c22a536a8ae5c4422966d06946b6d4c6"
+    url "https://files.pythonhosted.org/packages/be/60/da377e1bed002716fb2d5d1d1cab720f298cb33ecff7bf7adea72788e4e4/cryptography-2.8.tar.gz"
+    sha256 "3cda1f0ed8747339bbdf71b9f38ca74c7b592f24f65cdb3ab3765e4b02871651"
   end
 
   resource "cumulusci" do
-    url "https://files.pythonhosted.org/packages/83/09/91498d7518b753ea679418d376e743693f18b5cb782d7075b5cc453776c5/cumulusci-3.0.2.tar.gz"
-    sha256 "e13642007a40060834440b019aa47e06d9d36a92321ebd75e156b3d1a5f416c0"
+    url "https://files.pythonhosted.org/packages/b0/3d/b6e95ec3809f8793641c83446d8906def03226d6a096a87daa7c46bd184d/cumulusci-3.1.0.tar.gz"
+    sha256 "3c606ea6eaa84e488489998de752db2465fa3ce6f8affb088dab750b57b26446"
   end
 
   resource "docutils" do
