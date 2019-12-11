@@ -3,8 +3,8 @@ class Cumulusci < Formula
 
   desc "Python framework for building automation for Salesforce projects"
   homepage "https://github.com/SFDO-Tooling/CumulusCI"
-  url "https://files.pythonhosted.org/packages/ab/ca/8e92f41f71d616afa48741343eba26bc0561667758f5007376cc2cea8b0d/cumulusci-3.1.2.tar.gz"
-  sha256 "dcbb568623c840227f7d85f395cb7607faaffa4e85364c5039c06032ba835800"
+  url "https://files.pythonhosted.org/packages/af/8b/12dc1fa45157a3c19f6d755bd935da1e6dcf2ea2e0a85b3424e10e0d3189/cumulusci-3.2.0.tar.gz"
+  sha256 "79177d1c46404c74f5b6ac17bbe2cce58e19f10c65e39698fb9ab478bd02f401"
   head "https://github.com/SFDO-Tooling/CumulusCI.git"
 
   depends_on "python"
@@ -15,8 +15,8 @@ class Cumulusci < Formula
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/62/85/7585750fd65599e88df0fed59c74f5075d4ea2fe611deceb95dd1c2fb25b/certifi-2019.9.11.tar.gz"
-    sha256 "e4f3620cfea4f83eedc95b24abd9cd56f3c4b146dd0177e83a21b4eb49e21e50"
+    url "https://files.pythonhosted.org/packages/41/bf/9d214a5af07debc6acf7f3f257265618f1db242a3f8e49a9b516f24523a6/certifi-2019.11.28.tar.gz"
+    sha256 "25b64c7da4cd7479594d035c08c2d809eb4aab3a26e5a990ea98cc450c320f1f"
   end
 
   resource "cffi" do
@@ -45,18 +45,13 @@ class Cumulusci < Formula
   end
 
   resource "cumulusci" do
-    url "https://files.pythonhosted.org/packages/ab/ca/8e92f41f71d616afa48741343eba26bc0561667758f5007376cc2cea8b0d/cumulusci-3.1.2.tar.gz"
-    sha256 "dcbb568623c840227f7d85f395cb7607faaffa4e85364c5039c06032ba835800"
+    url "https://files.pythonhosted.org/packages/af/8b/12dc1fa45157a3c19f6d755bd935da1e6dcf2ea2e0a85b3424e10e0d3189/cumulusci-3.2.0.tar.gz"
+    sha256 "79177d1c46404c74f5b6ac17bbe2cce58e19f10c65e39698fb9ab478bd02f401"
   end
 
   resource "docutils" do
     url "https://files.pythonhosted.org/packages/93/22/953e071b589b0b1fee420ab06a0d15e5aa0c7470eb9966d60393ce58ad61/docutils-0.15.2.tar.gz"
     sha256 "a2aeea129088da402665e92e0b25b04b073c04b2dce4ab65caaa38b7ce2e1a99"
-  end
-
-  resource "entrypoints" do
-    url "https://files.pythonhosted.org/packages/b4/ef/063484f1f9ba3081e920ec9972c96664e2edb9fdc3d8669b0e3b8fc0ad7c/entrypoints-0.3.tar.gz"
-    sha256 "c70dd71abe5a8c85e55e12c19bd91ccfeec11a6e99044204511f9ed547d48451"
   end
 
   resource "factory-boy" do
@@ -65,8 +60,8 @@ class Cumulusci < Formula
   end
 
   resource "Faker" do
-    url "https://files.pythonhosted.org/packages/54/cd/aa2cc3fc35be2655847da84245fe2b97a3d906fe90702df6c4856cd8e58b/Faker-2.0.4.tar.gz"
-    sha256 "6327c665c0d8721280b3036d9c9e851c60092bc1f30c8394cc433f8723e2bda5"
+    url "https://files.pythonhosted.org/packages/24/31/c5f544a8555e0c5017bcbb288f4dcd5fb4423c43d3c7be194cf97c5c5bf3/Faker-3.0.0.tar.gz"
+    sha256 "92c84a10bec81217d9cb554ee12b3838c8986ce0b5d45f72f769da22e4bb5432"
   end
 
   resource "github3.py" do
@@ -84,6 +79,11 @@ class Cumulusci < Formula
     sha256 "c357b3f628cf53ae2c4c05627ecc484553142ca23264e593d327bcde5e9c3407"
   end
 
+  resource "importlib-metadata" do
+    url "https://files.pythonhosted.org/packages/cb/bb/7a935a48bf751af244090a7bd558769942cf13a7eba874b8b25538f3db01/importlib_metadata-1.3.0.tar.gz"
+    sha256 "073a852570f92da5f744a3472af1b61e28e9f78ccf0c9117658dc32b15de7b45"
+  end
+
   resource "Jinja2" do
     url "https://files.pythonhosted.org/packages/7b/db/1d037ccd626d05a7a47a1b81ea73775614af83c2b3e53d86a0bb41d8d799/Jinja2-2.10.3.tar.gz"
     sha256 "9fe95f19286cfefaa917656583d020be14e7859c6b0252588391e47db34527de"
@@ -95,18 +95,23 @@ class Cumulusci < Formula
   end
 
   resource "keyring" do
-    url "https://files.pythonhosted.org/packages/ee/46/77fdb7cd2b0f1f684afbc35a59b3d7ebb6961fe528f97b86900002968914/keyring-19.2.0.tar.gz"
-    sha256 "91037ccaf0c9a112a76f7740e4a416b9457a69b66c2799421581bee710a974b3"
+    url "https://files.pythonhosted.org/packages/a7/74/01d60aefd5719d00379f663565c49b81d3452b0d87b14fbc40b48d5bc94f/keyring-19.3.0.tar.gz"
+    sha256 "ee3d35b7f1ac3cb69e9a1e4323534649d3ab2fea402738a77e4250c152970fed"
   end
 
   resource "lxml" do
-    url "https://files.pythonhosted.org/packages/c4/43/3f1e7d742e2a7925be180b6af5e0f67d38de2f37560365ac1a0b9a04c015/lxml-4.4.1.tar.gz"
-    sha256 "c81cb40bff373ab7a7446d6bbca0190bccc5be3448b47b51d729e37799bb5692"
+    url "https://files.pythonhosted.org/packages/e4/19/8dfeef50623892577dc05245093e090bb2bab4c8aed5cad5b03208959563/lxml-4.4.2.tar.gz"
+    sha256 "eff69ddbf3ad86375c344339371168640951c302450c5d3e9936e98d6459db06"
   end
 
   resource "MarkupSafe" do
     url "https://files.pythonhosted.org/packages/b9/2e/64db92e53b86efccfaea71321f597fa2e1b2bd3853d8ce658568f7a13094/MarkupSafe-1.1.1.tar.gz"
     sha256 "29872e92839765e546828bb7754a68c418d927cd064fd4708fab9fe9c8bb116b"
+  end
+
+  resource "more-itertools" do
+    url "https://files.pythonhosted.org/packages/4e/b2/e9e512cccde6c54bf66a8e5820a2af779eb8235028627002ca90d4f75bea/more-itertools-8.0.2.tar.gz"
+    sha256 "b84b238cce0d9adad5ed87e745778d20a3f8487d0f0cb8b8a586816c7496458d"
   end
 
   resource "pycparser" do
@@ -135,8 +140,8 @@ class Cumulusci < Formula
   end
 
   resource "PyYAML" do
-    url "https://files.pythonhosted.org/packages/e3/e8/b3212641ee2718d556df0f23f78de8303f068fe29cdaa7a91018849582fe/PyYAML-5.1.2.tar.gz"
-    sha256 "01adf0b6c6f61bd11af6e10ca52b7d4057dd0be0343eb9283c878cf3af56aee4"
+    url "https://files.pythonhosted.org/packages/8d/c9/e5be955a117a1ac548cdd31e37e8fd7b02ce987f9655f5c7563c656d5dcb/PyYAML-5.2.tar.gz"
+    sha256 "c0ee8eca2c582d29c3c2ec6e2c4f703d1b7f1fb10bc72317355a746057e7346c"
   end
 
   resource "raven" do
@@ -160,8 +165,8 @@ class Cumulusci < Formula
   end
 
   resource "robotframework-seleniumlibrary" do
-    url "https://files.pythonhosted.org/packages/c8/e7/c577d9528b80d748fe7beca1b106d751caf39d0d77f8fd85e39b1ef50ded/robotframework-seleniumlibrary-3.3.1.tar.gz"
-    sha256 "6f3a0eba3f0a4f9b10d3271420f4430cc9e8230cc25e3deaa469d533d872a10f"
+    url "https://files.pythonhosted.org/packages/53/e3/6c2f98c64583f275fa79e0f504b90ccda06dbab3d607731e9dc295170557/robotframework-seleniumlibrary-4.1.0.tar.gz"
+    sha256 "f45cf8d52265a416cb7f2568ca6201068f178eff9050fab01adde14bb8633314"
   end
 
   resource "rst2ansi" do
@@ -227,6 +232,11 @@ class Cumulusci < Formula
   resource "xmltodict" do
     url "https://files.pythonhosted.org/packages/58/40/0d783e14112e064127063fbf5d1fe1351723e5dfe9d6daad346a305f6c49/xmltodict-0.12.0.tar.gz"
     sha256 "50d8c638ed7ecb88d90561beedbf720c9b4e851a9fa6c47ebd64e99d166d8a21"
+  end
+
+  resource "zipp" do
+    url "https://files.pythonhosted.org/packages/57/dd/585d728479d97d25aeeb9aa470d36a4ad8d0ba5610f84e14770128ce6ff7/zipp-0.6.0.tar.gz"
+    sha256 "3718b1cbcd963c7d4c5511a8240812904164b7f381b647143a89d3b98f9bcd8e"
   end
 
   def install
