@@ -3,15 +3,15 @@ class Cumulusci < Formula
 
   desc "Python framework for building automation for Salesforce projects"
   homepage "https://github.com/SFDO-Tooling/CumulusCI"
-  url "https://files.pythonhosted.org/packages/e1/b6/63dcbb799b87032685a2e1d55bfd381edf2bf5aee7a9b9821f9ffe4ccfac/cumulusci-3.3.0.tar.gz"
-  sha256 "e3b824f1e278011b7c5a663accfcdfc71b70b6824da8ceee0a45b9cd4688f77b"
+  url "https://files.pythonhosted.org/packages/f5/3d/c8981db1b00ce0dde387312b95d30095c44b8b530798701bd59f223f3208/cumulusci-3.4.0.tar.gz"
+  sha256 "b1f909149da1b30d7c10f59b49b80144d32739e1c4469e11073f08b93a98f810"
   head "https://github.com/SFDO-Tooling/CumulusCI.git"
 
   depends_on "python"
 
   resource "asn1crypto" do
-    url "https://files.pythonhosted.org/packages/c1/a9/86bfedaf41ca590747b4c9075bc470d0b2ec44fb5db5d378bc61447b3b6b/asn1crypto-1.2.0.tar.gz"
-    sha256 "87620880a477123e01177a1f73d0f327210b43a3cdbd714efcd2fa49a8d7b384"
+    url "https://files.pythonhosted.org/packages/9f/3d/8beae739ed8c1c8f00ceac0ab6b0e97299b42da869e24cf82851b27a9123/asn1crypto-1.3.0.tar.gz"
+    sha256 "5a215cb8dc12f892244e3a113fe05397ee23c5c4ca7a69cd6e69811755efc42d"
   end
 
   resource "certifi" do
@@ -45,8 +45,8 @@ class Cumulusci < Formula
   end
 
   resource "cumulusci" do
-    url "https://files.pythonhosted.org/packages/e1/b6/63dcbb799b87032685a2e1d55bfd381edf2bf5aee7a9b9821f9ffe4ccfac/cumulusci-3.3.0.tar.gz"
-    sha256 "e3b824f1e278011b7c5a663accfcdfc71b70b6824da8ceee0a45b9cd4688f77b"
+    url "https://files.pythonhosted.org/packages/f5/3d/c8981db1b00ce0dde387312b95d30095c44b8b530798701bd59f223f3208/cumulusci-3.4.0.tar.gz"
+    sha256 "b1f909149da1b30d7c10f59b49b80144d32739e1c4469e11073f08b93a98f810"
   end
 
   resource "docutils" do
@@ -95,8 +95,8 @@ class Cumulusci < Formula
   end
 
   resource "keyring" do
-    url "https://files.pythonhosted.org/packages/e2/ca/f7caecaac22e06cf4de0e5144a4f2a47251f8fee598f84d5f3fa1d8709a7/keyring-20.0.0.tar.gz"
-    sha256 "fc9cadedae35b77141f670f84c10a657147d2e526348698c93dd77f039979729"
+    url "https://files.pythonhosted.org/packages/93/b2/66cab0195a41415567ccfbf0e02c3ecc7f423729ca0c385819afbcd8e256/keyring-21.0.0.tar.gz"
+    sha256 "5f5f92327b6c7432bebc18a1b60cb3797d99b08db1f5b919b8187c37a01f1ccc"
   end
 
   resource "lxml" do
