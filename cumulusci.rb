@@ -3,8 +3,8 @@ class Cumulusci < Formula
 
   desc "Python framework for building automation for Salesforce projects"
   homepage "https://github.com/SFDO-Tooling/CumulusCI"
-  url "https://files.pythonhosted.org/packages/f5/3d/c8981db1b00ce0dde387312b95d30095c44b8b530798701bd59f223f3208/cumulusci-3.4.0.tar.gz"
-  sha256 "b1f909149da1b30d7c10f59b49b80144d32739e1c4469e11073f08b93a98f810"
+  url "https://files.pythonhosted.org/packages/7d/a1/b335d51dd0cfde60a9d966c218ffd4ca56b716fcba27f771ffa1ca31952d/cumulusci-3.5.0.tar.gz"
+  sha256 "a261143eb5a7dfd548ef80065d49f29f50a5dd3f2c45d288272486ea8da150b2"
   head "https://github.com/SFDO-Tooling/CumulusCI.git"
 
   depends_on "python"
@@ -45,8 +45,8 @@ class Cumulusci < Formula
   end
 
   resource "cumulusci" do
-    url "https://files.pythonhosted.org/packages/f5/3d/c8981db1b00ce0dde387312b95d30095c44b8b530798701bd59f223f3208/cumulusci-3.4.0.tar.gz"
-    sha256 "b1f909149da1b30d7c10f59b49b80144d32739e1c4469e11073f08b93a98f810"
+    url "https://files.pythonhosted.org/packages/7d/a1/b335d51dd0cfde60a9d966c218ffd4ca56b716fcba27f771ffa1ca31952d/cumulusci-3.5.0.tar.gz"
+    sha256 "a261143eb5a7dfd548ef80065d49f29f50a5dd3f2c45d288272486ea8da150b2"
   end
 
   resource "docutils" do
@@ -60,8 +60,8 @@ class Cumulusci < Formula
   end
 
   resource "Faker" do
-    url "https://files.pythonhosted.org/packages/24/31/c5f544a8555e0c5017bcbb288f4dcd5fb4423c43d3c7be194cf97c5c5bf3/Faker-3.0.0.tar.gz"
-    sha256 "92c84a10bec81217d9cb554ee12b3838c8986ce0b5d45f72f769da22e4bb5432"
+    url "https://files.pythonhosted.org/packages/8b/64/698da317b4e40d2187252c4f979ae5d6cde0314a21238887f26695b2854f/Faker-4.0.0.tar.gz"
+    sha256 "1b1a58961683b30c574520d0c739c4443e0ef6a185c04382e8cc888273dbebed"
   end
 
   resource "github3.py" do
@@ -80,8 +80,8 @@ class Cumulusci < Formula
   end
 
   resource "importlib-metadata" do
-    url "https://files.pythonhosted.org/packages/cb/bb/7a935a48bf751af244090a7bd558769942cf13a7eba874b8b25538f3db01/importlib_metadata-1.3.0.tar.gz"
-    sha256 "073a852570f92da5f744a3472af1b61e28e9f78ccf0c9117658dc32b15de7b45"
+    url "https://files.pythonhosted.org/packages/8c/0e/10e247f40c89ba72b7f2a2104ccf1b65de18f79562ffe11bfb837b711acf/importlib_metadata-1.4.0.tar.gz"
+    sha256 "f17c015735e1a88296994c0697ecea7e11db24290941983b08c9feb30921e6d8"
   end
 
   resource "Jinja2" do
@@ -95,8 +95,8 @@ class Cumulusci < Formula
   end
 
   resource "keyring" do
-    url "https://files.pythonhosted.org/packages/93/b2/66cab0195a41415567ccfbf0e02c3ecc7f423729ca0c385819afbcd8e256/keyring-21.0.0.tar.gz"
-    sha256 "5f5f92327b6c7432bebc18a1b60cb3797d99b08db1f5b919b8187c37a01f1ccc"
+    url "https://files.pythonhosted.org/packages/7e/70/399b955e814380568c1f2e98145d37f0467b79531766b687bc27eb873a0a/keyring-21.1.0.tar.gz"
+    sha256 "1f393f7466314068961c7e1d508120c092bd71fa54e3d93b76180b526d4abc56"
   end
 
   resource "lxml" do
@@ -110,8 +110,8 @@ class Cumulusci < Formula
   end
 
   resource "more-itertools" do
-    url "https://files.pythonhosted.org/packages/4e/b2/e9e512cccde6c54bf66a8e5820a2af779eb8235028627002ca90d4f75bea/more-itertools-8.0.2.tar.gz"
-    sha256 "b84b238cce0d9adad5ed87e745778d20a3f8487d0f0cb8b8a586816c7496458d"
+    url "https://files.pythonhosted.org/packages/df/8c/c278395367a46c00d28036143fdc6583db8f98622b83875403f16473509b/more-itertools-8.1.0.tar.gz"
+    sha256 "c468adec578380b6281a114cb8a5db34eb1116277da92d7c46f904f0b52d3288"
   end
 
   resource "pycparser" do
@@ -140,8 +140,8 @@ class Cumulusci < Formula
   end
 
   resource "PyYAML" do
-    url "https://files.pythonhosted.org/packages/8d/c9/e5be955a117a1ac548cdd31e37e8fd7b02ce987f9655f5c7563c656d5dcb/PyYAML-5.2.tar.gz"
-    sha256 "c0ee8eca2c582d29c3c2ec6e2c4f703d1b7f1fb10bc72317355a746057e7346c"
+    url "https://files.pythonhosted.org/packages/3d/d9/ea9816aea31beeadccd03f1f8b625ecf8f645bd66744484d162d84803ce5/PyYAML-5.3.tar.gz"
+    sha256 "e9f45bd5b92c7974e59bcd2dcc8631a6b6cc380a904725fce7bc08872e691615"
   end
 
   resource "raven" do
@@ -235,8 +235,8 @@ class Cumulusci < Formula
   end
 
   resource "zipp" do
-    url "https://files.pythonhosted.org/packages/57/dd/585d728479d97d25aeeb9aa470d36a4ad8d0ba5610f84e14770128ce6ff7/zipp-0.6.0.tar.gz"
-    sha256 "3718b1cbcd963c7d4c5511a8240812904164b7f381b647143a89d3b98f9bcd8e"
+    url "https://files.pythonhosted.org/packages/d4/cd/ef86396dce8910413b6ca1ef31ec09367c47e15fc1a12def2cc8ae134dea/zipp-1.0.0.tar.gz"
+    sha256 "d38fbe01bbf7a3593a32bc35a9c4453c32bc42b98c377f9bff7e9f8da157786c"
   end
 
   def install
