@@ -3,8 +3,8 @@ class Cumulusci < Formula
 
   desc "Python framework for building automation for Salesforce projects"
   homepage "https://github.com/SFDO-Tooling/CumulusCI"
-  url "https://files.pythonhosted.org/packages/c4/41/e19ec683ff84e5aecf0e8ea09eaa1e5f74f3a9d6770aee7a04c8206eab34/cumulusci-3.5.1.tar.gz"
-  sha256 "5df3437f3893cf799ae98db058abd050d5f9d7720e092ef54e0b4f968f8a35a7"
+  url "https://files.pythonhosted.org/packages/a9/28/1f8896f85735500e06a63493697af5638dcdf708866afd1d9db1a48efb34/cumulusci-3.5.2.tar.gz"
+  sha256 "7ea184271670bcd577c71ee753a0d87197aeca56a33b98d7385b2e46f16827c6"
   head "https://github.com/SFDO-Tooling/CumulusCI.git"
 
   depends_on "python"
@@ -45,13 +45,13 @@ class Cumulusci < Formula
   end
 
   resource "cumulusci" do
-    url "https://files.pythonhosted.org/packages/c4/41/e19ec683ff84e5aecf0e8ea09eaa1e5f74f3a9d6770aee7a04c8206eab34/cumulusci-3.5.1.tar.gz"
-    sha256 "5df3437f3893cf799ae98db058abd050d5f9d7720e092ef54e0b4f968f8a35a7"
+    url "https://files.pythonhosted.org/packages/a9/28/1f8896f85735500e06a63493697af5638dcdf708866afd1d9db1a48efb34/cumulusci-3.5.2.tar.gz"
+    sha256 "7ea184271670bcd577c71ee753a0d87197aeca56a33b98d7385b2e46f16827c6"
   end
 
   resource "docutils" do
-    url "https://files.pythonhosted.org/packages/93/22/953e071b589b0b1fee420ab06a0d15e5aa0c7470eb9966d60393ce58ad61/docutils-0.15.2.tar.gz"
-    sha256 "a2aeea129088da402665e92e0b25b04b073c04b2dce4ab65caaa38b7ce2e1a99"
+    url "https://files.pythonhosted.org/packages/2f/e0/3d435b34abd2d62e8206171892f174b180cd37b09d57b924ca5c2ef2219d/docutils-0.16.tar.gz"
+    sha256 "c2de3a60e9e7d07be26b7f2b00ca0309c207e06c100f9cc2a94931fc75a478fc"
   end
 
   resource "factory-boy" do
@@ -195,8 +195,8 @@ class Cumulusci < Formula
   end
 
   resource "six" do
-    url "https://files.pythonhosted.org/packages/94/3e/edcf6fef41d89187df7e38e868b2dd2182677922b600e880baad7749c865/six-1.13.0.tar.gz"
-    sha256 "30f610279e8b2578cab6db20741130331735c781b56053c59c4076da27f06b66"
+    url "https://files.pythonhosted.org/packages/21/9f/b251f7f8a76dec1d6651be194dfba8fb8d7781d10ab3987190de8391d08e/six-1.14.0.tar.gz"
+    sha256 "236bdbdce46e6e6a3d61a337c0f8b763ca1e8717c03b369e87a7ec7ce1319c0a"
   end
 
   resource "SQLAlchemy" do
