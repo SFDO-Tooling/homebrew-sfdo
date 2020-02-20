@@ -3,8 +3,8 @@ class Cumulusci < Formula
 
   desc "Python framework for building automation for Salesforce projects"
   homepage "https://github.com/SFDO-Tooling/CumulusCI"
-  url "https://files.pythonhosted.org/packages/77/ed/02064a65531bddaeebc274c1948f62a736d3f82a98262a7fd881444ff3b0/cumulusci-3.6.0.tar.gz"
-  sha256 "b9bef8a1d0bc2dacf8ad33e115c9b8376e3bc66573d93bc2aca84a4d4b502961"
+  url "https://files.pythonhosted.org/packages/cf/c1/3802ffee206b3c885b440c5c1ba1a68a0f84cacff0c03977424915b87a2c/cumulusci-3.7.0.tar.gz"
+  sha256 "fc4c16a9164c3848cd7f0626e3a0993ad6e74e6a33ef2122843e0b6bc90df578"
   head "https://github.com/SFDO-Tooling/CumulusCI.git"
 
   depends_on "python"
@@ -20,8 +20,8 @@ class Cumulusci < Formula
   end
 
   resource "cffi" do
-    url "https://files.pythonhosted.org/packages/2d/bf/960e5a422db3ac1a5e612cb35ca436c3fc985ed4b7ed13a1b4879006f450/cffi-1.13.2.tar.gz"
-    sha256 "599a1e8ff057ac530c9ad1778293c665cb81a791421f46922d80a86473c13346"
+    url "https://files.pythonhosted.org/packages/05/54/3324b0c46340c31b909fcec598696aaec7ddc8c18a63f2db352562d3354c/cffi-1.14.0.tar.gz"
+    sha256 "2d384f4a127a15ba701207f7639d94106693b6cd64173d6c8988e2c25f3ac2b6"
   end
 
   resource "chardet" do
@@ -35,8 +35,8 @@ class Cumulusci < Formula
   end
 
   resource "coloredlogs" do
-    url "https://files.pythonhosted.org/packages/63/09/1da37a51b232eaf9707919123b2413662e95edd50bace5353a548910eb9d/coloredlogs-10.0.tar.gz"
-    sha256 "b869a2dda3fa88154b9dd850e27828d8755bfab5a838a1c97fbc850c6e377c36"
+    url "https://files.pythonhosted.org/packages/84/1b/1ecdd371fa68839cfbda15cc671d0f6c92d2c42688df995a9bf6e36f3511/coloredlogs-14.0.tar.gz"
+    sha256 "a1fab193d2053aa6c0a97608c4342d031f1f93a3d1218432c59322441d31a505"
   end
 
   resource "cryptography" do
@@ -45,8 +45,8 @@ class Cumulusci < Formula
   end
 
   resource "cumulusci" do
-    url "https://files.pythonhosted.org/packages/77/ed/02064a65531bddaeebc274c1948f62a736d3f82a98262a7fd881444ff3b0/cumulusci-3.6.0.tar.gz"
-    sha256 "b9bef8a1d0bc2dacf8ad33e115c9b8376e3bc66573d93bc2aca84a4d4b502961"
+    url "https://files.pythonhosted.org/packages/cf/c1/3802ffee206b3c885b440c5c1ba1a68a0f84cacff0c03977424915b87a2c/cumulusci-3.7.0.tar.gz"
+    sha256 "fc4c16a9164c3848cd7f0626e3a0993ad6e74e6a33ef2122843e0b6bc90df578"
   end
 
   resource "docutils" do
@@ -60,8 +60,8 @@ class Cumulusci < Formula
   end
 
   resource "Faker" do
-    url "https://files.pythonhosted.org/packages/8b/64/698da317b4e40d2187252c4f979ae5d6cde0314a21238887f26695b2854f/Faker-4.0.0.tar.gz"
-    sha256 "1b1a58961683b30c574520d0c739c4443e0ef6a185c04382e8cc888273dbebed"
+    url "https://files.pythonhosted.org/packages/0e/6a/c9a88aca1baaaf0587bfd7b0779429ddfb4e404d066caf3c7a98631247fd/Faker-4.0.1.tar.gz"
+    sha256 "440d68fe0e46c1658b1975b2497abe0c24a7f772e3892253f31e713ffcc48965"
   end
 
   resource "github3.py" do
@@ -70,8 +70,8 @@ class Cumulusci < Formula
   end
 
   resource "humanfriendly" do
-    url "https://files.pythonhosted.org/packages/26/71/e7daf57e819a70228568ff5395fdbc4de81b63067b93167e07825fcf0bcf/humanfriendly-4.18.tar.gz"
-    sha256 "33ee8ceb63f1db61cce8b5c800c531e1a61023ac5488ccde2ba574a85be00a85"
+    url "https://files.pythonhosted.org/packages/bb/ee/c85cca94adc8d6eca6d86802dbffcedf6de7645a69d07d9993a39783f79d/humanfriendly-7.1.1.tar.gz"
+    sha256 "5e5c2b82fb58dcea413b48ab2a7381baa5e246d47fe94241d7d83724c11c0565"
   end
 
   resource "idna" do
@@ -160,8 +160,8 @@ class Cumulusci < Formula
   end
 
   resource "robotframework-seleniumlibrary" do
-    url "https://files.pythonhosted.org/packages/ef/2b/c96ca4a467748f9c24b16d154bfc0bb9113c285aef343aee889a6ea2eea2/robotframework-seleniumlibrary-4.2.0.tar.gz"
-    sha256 "7004feaa0e0f66013c877470078ea4fa65ac07f65023a95d91c51a9618abbf07"
+    url "https://files.pythonhosted.org/packages/ee/8b/1365ae004235bed3d0787bf98651b2e4416b07e8aa6cd5f8dcaa7fe1dd14/robotframework-seleniumlibrary-4.3.0.tar.gz"
+    sha256 "b4a3a58d3c240a2004d7436e4806b5de669db329cd6fd264f45b65943c5140c4"
   end
 
   resource "rst2ansi" do
@@ -230,8 +230,8 @@ class Cumulusci < Formula
   end
 
   resource "zipp" do
-    url "https://files.pythonhosted.org/packages/11/b5/89f3ab6d45b2709863761bab58c574b2344ef215749abb5407818c21c9ca/zipp-2.1.0.tar.gz"
-    sha256 "feae2f18633c32fc71f2de629bfb3bd3c9325cd4419642b1f1da42ee488d9b98"
+    url "https://files.pythonhosted.org/packages/42/09/bb2a28216f9572da61a2c56c6d5bf6d8c011371d8268f42a9ca5a4cbaf40/zipp-3.0.0.tar.gz"
+    sha256 "7c0f8e91abc0dc07a5068f315c52cb30c66bfbc581e5b50704c8a2f6ebae794a"
   end
 
   def install
