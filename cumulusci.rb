@@ -3,8 +3,8 @@ class Cumulusci < Formula
 
   desc "Python framework for building automation for Salesforce projects"
   homepage "https://github.com/SFDO-Tooling/CumulusCI"
-  url "https://files.pythonhosted.org/packages/cf/c1/3802ffee206b3c885b440c5c1ba1a68a0f84cacff0c03977424915b87a2c/cumulusci-3.7.0.tar.gz"
-  sha256 "fc4c16a9164c3848cd7f0626e3a0993ad6e74e6a33ef2122843e0b6bc90df578"
+  url "https://files.pythonhosted.org/packages/b5/29/0b4b11ce7f2f09f3a291b2a5314b5edcc53248043b32af0791005f3e50ed/cumulusci-3.8.0.tar.gz"
+  sha256 "b72900035a8a195ceda70ae8ba7ced727cef27e6661f79b8b520149ba330a59f"
   head "https://github.com/SFDO-Tooling/CumulusCI.git"
 
   depends_on "python"
@@ -45,8 +45,8 @@ class Cumulusci < Formula
   end
 
   resource "cumulusci" do
-    url "https://files.pythonhosted.org/packages/cf/c1/3802ffee206b3c885b440c5c1ba1a68a0f84cacff0c03977424915b87a2c/cumulusci-3.7.0.tar.gz"
-    sha256 "fc4c16a9164c3848cd7f0626e3a0993ad6e74e6a33ef2122843e0b6bc90df578"
+    url "https://files.pythonhosted.org/packages/b5/29/0b4b11ce7f2f09f3a291b2a5314b5edcc53248043b32af0791005f3e50ed/cumulusci-3.8.0.tar.gz"
+    sha256 "b72900035a8a195ceda70ae8ba7ced727cef27e6661f79b8b520149ba330a59f"
   end
 
   resource "docutils" do
@@ -75,8 +75,8 @@ class Cumulusci < Formula
   end
 
   resource "idna" do
-    url "https://files.pythonhosted.org/packages/ad/13/eb56951b6f7950cadb579ca166e448ba77f9d24efc03edd7e55fa57d04b7/idna-2.8.tar.gz"
-    sha256 "c357b3f628cf53ae2c4c05627ecc484553142ca23264e593d327bcde5e9c3407"
+    url "https://files.pythonhosted.org/packages/cb/19/57503b5de719ee45e83472f339f617b0c01ad75cba44aba1e4c97c2b0abd/idna-2.9.tar.gz"
+    sha256 "7588d1c14ae4c77d74036e8c22ff447b26d0fde8f007354fd48a7814db15b7cb"
   end
 
   resource "importlib-metadata" do
@@ -90,8 +90,8 @@ class Cumulusci < Formula
   end
 
   resource "jwcrypto" do
-    url "https://files.pythonhosted.org/packages/d5/27/4f121e9596826adf050fe255b5d27f6f97a421d1ec3943d8de566fdc62c0/jwcrypto-0.6.0.tar.gz"
-    sha256 "a87ac0922d09d9a65011f76d99849f1fbad3d95439c7452cebf4ab0871c2b665"
+    url "https://files.pythonhosted.org/packages/71/7b/73788a97c5f5d24e9c75a03cca835af7acacd4f6aa1be428b6e9647e260b/jwcrypto-0.7.tar.gz"
+    sha256 "adbe1f6266cde35d40d5de6d1419612b3bd4c869b9332c88c9d7a9163d305100"
   end
 
   resource "keyring" do
@@ -145,8 +145,8 @@ class Cumulusci < Formula
   end
 
   resource "requests" do
-    url "https://files.pythonhosted.org/packages/01/62/ddcf76d1d19885e8579acb1b1df26a852b03472c0e46d2b959a714c90608/requests-2.22.0.tar.gz"
-    sha256 "11e007a8a2aa0323f5a921e9e6a2d7e4e67d9877e85773fba9ba6419025cbeb4"
+    url "https://files.pythonhosted.org/packages/f5/4f/280162d4bd4d8aad241a21aecff7a6e46891b905a4341e7ab549ebaf7915/requests-2.23.0.tar.gz"
+    sha256 "b3f43d496c6daba4493e7c431722aeb7dbc6288f52a6e04e7b6023b0247817e6"
   end
 
   resource "robotframework" do
