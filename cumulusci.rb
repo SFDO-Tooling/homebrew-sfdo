@@ -3,8 +3,8 @@ class Cumulusci < Formula
 
   desc "Python framework for building automation for Salesforce projects"
   homepage "https://github.com/SFDO-Tooling/CumulusCI"
-  url "https://files.pythonhosted.org/packages/4c/52/f4a20a5cd046a145408c6af157eb585edee63c38bcff1720dd522ffe88b6/cumulusci-3.9.0.tar.gz"
-  sha256 "9ee490154f602820b5fbd253c5b2d9256f0e196c4d2d009908d686007cf2019d"
+  url "https://files.pythonhosted.org/packages/7f/88/449c98cb79a615f7aa88980d6db78b816c45b6aa08e638752bb1d52c0b97/cumulusci-3.9.1.tar.gz"
+  sha256 "4c6072c11a2e521b4898099114fa887ba99fe7addb19f4d43ab5b5fcfb8bc555"
   head "https://github.com/SFDO-Tooling/CumulusCI.git"
 
   depends_on "python"
@@ -80,8 +80,8 @@ class Cumulusci < Formula
   end
 
   resource "importlib-metadata" do
-    url "https://files.pythonhosted.org/packages/0d/e4/638f3bde506b86f62235c595073066e7b8472fc9ee2b8c6491347f31d726/importlib_metadata-1.5.0.tar.gz"
-    sha256 "06f5b3a99029c7134207dd882428a66992a9de2bef7c2b699b5641f9886c3302"
+    url "https://files.pythonhosted.org/packages/79/8e/b44fd553b6f1c4458fb1d62672fd774705684102c835c89f5325a0b602a1/importlib_metadata-1.5.1.tar.gz"
+    sha256 "dd381cddc02a58a23667ef675164ad70848d82966d3a8fddea96dcfb51064803"
   end
 
   resource "Jinja2" do
@@ -124,11 +124,6 @@ class Cumulusci < Formula
     sha256 "8d59a976fb773f3e6a39c85636357c4f0e242707394cadadd9814f5cbaa20e96"
   end
 
-  resource "pyOpenSSL" do
-    url "https://files.pythonhosted.org/packages/0d/1d/6cc4bd4e79f78be6640fab268555a11af48474fac9df187c3361a1d1d2f0/pyOpenSSL-19.1.0.tar.gz"
-    sha256 "9a24494b2602aaf402be5c9e30a0b82d4a5c67528fe8fb475e3f3bc00dd69507"
-  end
-
   resource "python-dateutil" do
     url "https://files.pythonhosted.org/packages/be/ed/5bbc91f03fa4c839c4c7360375da77f9659af5f7086b7a7bdda65771c8e0/python-dateutil-2.8.1.tar.gz"
     sha256 "73ebfe9dbf22e832286dafa60473e4cd239f8592f699aa5adaf10050e6e1823c"
@@ -140,8 +135,8 @@ class Cumulusci < Formula
   end
 
   resource "PyYAML" do
-    url "https://files.pythonhosted.org/packages/3d/d9/ea9816aea31beeadccd03f1f8b625ecf8f645bd66744484d162d84803ce5/PyYAML-5.3.tar.gz"
-    sha256 "e9f45bd5b92c7974e59bcd2dcc8631a6b6cc380a904725fce7bc08872e691615"
+    url "https://files.pythonhosted.org/packages/64/c2/b80047c7ac2478f9501676c988a5411ed5572f35d1beff9cae07d321512c/PyYAML-5.3.1.tar.gz"
+    sha256 "b8eac752c5e14d3eca0e6dd9199cd627518cb5ec06add0de9d32baeee6fe645d"
   end
 
   resource "raven" do
@@ -190,8 +185,8 @@ class Cumulusci < Formula
   end
 
   resource "simple-salesforce" do
-    url "https://files.pythonhosted.org/packages/35/23/c6798e1e0df8bf38e2033db564f735228bbeb0b6f769a67b50f8b181eede/simple-salesforce-0.75.3.tar.gz"
-    sha256 "8cd45024d3aa0ed543aa61b9efeb85204a6313ec7d2e5a81987a7fded66307ca"
+    url "https://files.pythonhosted.org/packages/56/9d/99250f0540d382dd2f041da69a96e7e59521ca78408708b70c66718f124b/simple-salesforce-1.0.0.tar.gz"
+    sha256 "d1467ec772bcbe0382bbbfc3bffb09b41344635723da0bfc48b65635df43659c"
   end
 
   resource "six" do
@@ -212,6 +207,11 @@ class Cumulusci < Formula
   resource "text-unidecode" do
     url "https://files.pythonhosted.org/packages/ab/e2/e9a00f0ccb71718418230718b3d900e71a5d16e701a3dae079a21e9cd8f8/text-unidecode-1.3.tar.gz"
     sha256 "bad6603bb14d279193107714b288be206cac565dfa49aa5b105294dd5c4aab93"
+  end
+
+  resource "typing-extensions" do
+    url "https://files.pythonhosted.org/packages/e7/dd/f1713bc6638cc3a6a23735eff6ee09393b44b96176d3296693ada272a80b/typing_extensions-3.7.4.1.tar.gz"
+    sha256 "091ecc894d5e908ac75209f10d5b4f118fbdb2eb1ede6a63544054bb1edb41f2"
   end
 
   resource "unicodecsv" do
