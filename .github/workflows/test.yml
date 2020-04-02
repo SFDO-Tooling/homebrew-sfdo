@@ -1,9 +1,6 @@
 name: Test Homebrew formula
 
-on:
-  push:
-    paths:
-    - cumulusci.rb
+on: push
 
 jobs:
   build:
