@@ -3,8 +3,8 @@ class Cumulusci < Formula
 
   desc "Python framework for building automation for Salesforce projects"
   homepage "https://github.com/SFDO-Tooling/CumulusCI"
-  url "https://files.pythonhosted.org/packages/85/bb/8ea6bc4e58e91e22cc460e174fea1eba60c9889b36cd412394a8188eb6ac/cumulusci-3.10.0.tar.gz"
-  sha256 "7ba364a60a3c66f71bd0909d328d60564c97394f01691ed2db7200b120c69e94"
+  url "https://files.pythonhosted.org/packages/2c/1d/4e7160b4761684d6f71c108af18ba64a0ce55e6d27a11bbdeb1e824c8480/cumulusci-3.11.0.tar.gz"
+  sha256 "fac48dcccbed00520100f1690db09e0dcfb93889c4cbb02cf5e456cd67bcf002"
   head "https://github.com/SFDO-Tooling/CumulusCI.git"
 
   depends_on "python"
@@ -20,8 +20,8 @@ class Cumulusci < Formula
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/41/bf/9d214a5af07debc6acf7f3f257265618f1db242a3f8e49a9b516f24523a6/certifi-2019.11.28.tar.gz"
-    sha256 "25b64c7da4cd7479594d035c08c2d809eb4aab3a26e5a990ea98cc450c320f1f"
+    url "https://files.pythonhosted.org/packages/b8/e2/a3a86a67c3fc8249ed305fc7b7d290ebe5e4d46ad45573884761ef4dea7b/certifi-2020.4.5.1.tar.gz"
+    sha256 "51fcb31174be6e6664c5f69e3e1691a2d72a1a12e90f872cbdb1567eb47b6519"
   end
 
   resource "cffi" do
@@ -45,8 +45,8 @@ class Cumulusci < Formula
   end
 
   resource "cryptography" do
-    url "https://files.pythonhosted.org/packages/be/60/da377e1bed002716fb2d5d1d1cab720f298cb33ecff7bf7adea72788e4e4/cryptography-2.8.tar.gz"
-    sha256 "3cda1f0ed8747339bbdf71b9f38ca74c7b592f24f65cdb3ab3765e4b02871651"
+    url "https://files.pythonhosted.org/packages/9d/0a/d7060601834b1a0a84845d6ae2cd59be077aafa2133455062e47c9733024/cryptography-2.9.tar.gz"
+    sha256 "0cacd3ef5c604b8e5f59bf2582c076c98a37fe206b31430d0cd08138aff0986e"
   end
 
   resource "docutils" do
@@ -194,9 +194,14 @@ class Cumulusci < Formula
     sha256 "236bdbdce46e6e6a3d61a337c0f8b763ca1e8717c03b369e87a7ec7ce1319c0a"
   end
 
+  resource "snowfakery" do
+    url "https://files.pythonhosted.org/packages/eb/d9/bafdd788bbe21d10f442849cd2963a889c7a1bc0bd5fe7f0d8fcb69a1dfa/snowfakery-0.7.0.tar.gz"
+    sha256 "dcc954c64dd16d3f9c7419c8e1ca7ae21bc4405141a9ffc566fbc806cd52f64b"
+  end
+
   resource "SQLAlchemy" do
-    url "https://files.pythonhosted.org/packages/8c/30/4134e726dd5ed13728ff814fa91fc01c447ad8700504653fe99d91fdd34b/SQLAlchemy-1.3.15.tar.gz"
-    sha256 "c4cca4aed606297afbe90d4306b49ad3a4cd36feb3f87e4bfd655c57fd9ef445"
+    url "https://files.pythonhosted.org/packages/7f/4b/adfb1f03da7f50db054a5b728d32dbfae8937754cfa159efa0216a3758d1/SQLAlchemy-1.3.16.tar.gz"
+    sha256 "7224e126c00b8178dfd227bc337ba5e754b197a3867d33b9f30dc0208f773d70"
   end
 
   resource "terminaltables" do
@@ -210,8 +215,8 @@ class Cumulusci < Formula
   end
 
   resource "typing-extensions" do
-    url "https://files.pythonhosted.org/packages/e7/dd/f1713bc6638cc3a6a23735eff6ee09393b44b96176d3296693ada272a80b/typing_extensions-3.7.4.1.tar.gz"
-    sha256 "091ecc894d5e908ac75209f10d5b4f118fbdb2eb1ede6a63544054bb1edb41f2"
+    url "https://files.pythonhosted.org/packages/6a/28/d32852f2af6b5ead85d396249d5bdf450833f3a69896d76eb480d9c5e406/typing_extensions-3.7.4.2.tar.gz"
+    sha256 "79ee589a3caca649a9bfd2a8de4709837400dfa00b6cc81962a1e6a1815969ae"
   end
 
   resource "unicodecsv" do
