@@ -3,8 +3,8 @@ class Cumulusci < Formula
 
   desc "Python framework for building automation for Salesforce projects"
   homepage "https://github.com/SFDO-Tooling/CumulusCI"
-  url "https://files.pythonhosted.org/packages/1c/a9/1a5e92b9ae45ec34204fa9f619ea85e5e498d286bfa5a0da29b3c37ae9a9/cumulusci-3.12.1.tar.gz"
-  sha256 "42f821d92b04041da5a0a9b9a3ff3a3a61e5f7e03e2c8b7fabc13237676bfb81"
+  url "https://files.pythonhosted.org/packages/ec/70/515d1987d19cf7337e4452a98add05a8dd822c3c461a764deef489a27cce/cumulusci-3.12.2.tar.gz"
+  sha256 "dfc20b3601518bb3ed5808f5d86d193ee6a2e737abfde663432bd8b64f41b2e8"
   head "https://github.com/SFDO-Tooling/CumulusCI.git"
 
   depends_on "python"
@@ -15,8 +15,8 @@ class Cumulusci < Formula
   end
 
   resource "Authlib" do
-    url "https://files.pythonhosted.org/packages/4c/c3/7fa7b0c13e4223b99a9c73fa0d6f7d36e2ef50ddbb52dcd85fcde835bee5/Authlib-0.14.1.tar.gz"
-    sha256 "89d55b14362f8acee450f9d153645e438e3a38be99b599190718c4406f575b05"
+    url "https://files.pythonhosted.org/packages/85/5f/4ddb1cd316a9e192c2ff396b51d9cad94004a0967c457d0b86070f53de85/Authlib-0.14.2.tar.gz"
+    sha256 "94958661bd9e1c236a43719f00c5e6da2b7a773bd7350961be9fd9f3298da658"
   end
 
   resource "certifi" do
@@ -35,8 +35,8 @@ class Cumulusci < Formula
   end
 
   resource "click" do
-    url "https://files.pythonhosted.org/packages/4e/ab/5d6bc3b697154018ef196f5b17d958fac3854e2efbc39ea07a284d4a6a9b/click-7.1.1.tar.gz"
-    sha256 "8a18b4ea89d8820c5d0c7da8a64b2c324b4dabb695804dbfea19b9be9d88c0cc"
+    url "https://files.pythonhosted.org/packages/27/6f/be940c8b1f1d69daceeb0032fee6c34d7bd70e3e649ccac0951500b4720e/click-7.1.2.tar.gz"
+    sha256 "d2b5255c7c6349bc1bd1e59e08cd12acbbd63ce649f2588755783aa94dfb6b1a"
   end
 
   resource "coloredlogs" do
@@ -85,8 +85,8 @@ class Cumulusci < Formula
   end
 
   resource "Jinja2" do
-    url "https://files.pythonhosted.org/packages/d8/03/e491f423379ea14bb3a02a5238507f7d446de639b623187bccc111fbecdf/Jinja2-2.11.1.tar.gz"
-    sha256 "93187ffbc7808079673ef52771baa950426fd664d3aad1d0fa3e95644360e250"
+    url "https://files.pythonhosted.org/packages/64/a7/45e11eebf2f15bf987c3bc11d37dcc838d9dc81250e67e4c5968f6008b6c/Jinja2-2.11.2.tar.gz"
+    sha256 "89aab215427ef59c34ad58735269eb58b1a5808103067f7bb9d5836c651b3bb0"
   end
 
   resource "jwcrypto" do
@@ -95,8 +95,8 @@ class Cumulusci < Formula
   end
 
   resource "keyring" do
-    url "https://files.pythonhosted.org/packages/0b/2a/4abe0beccb37d125d77fd716d18c1a5cde509faa60a1b0d2e9bba13ec572/keyring-21.2.0.tar.gz"
-    sha256 "197fd5903901030ef7b82fe247f43cfed2c157a28e7747d1cfcf4bc5e699dd03"
+    url "https://files.pythonhosted.org/packages/a6/52/eb8a0e13b54ec9240c7dd68fcd0951c52f62033d438af372831af770f7cc/keyring-21.2.1.tar.gz"
+    sha256 "c53e0e5ccde3ad34284a40ce7976b5b3a3d6de70344c3f8ee44364cc340976ec"
   end
 
   resource "lxml" do
@@ -130,8 +130,8 @@ class Cumulusci < Formula
   end
 
   resource "pytz" do
-    url "https://files.pythonhosted.org/packages/82/c3/534ddba230bd4fbbd3b7a3d35f3341d014cca213f369a9940925e7e5f691/pytz-2019.3.tar.gz"
-    sha256 "b02c06db6cf09c12dd25137e563b31700d3b80fcc4ad23abb7a315f2789819be"
+    url "https://files.pythonhosted.org/packages/f4/f6/94fee50f4d54f58637d4b9987a1b862aeb6cd969e73623e02c5c00755577/pytz-2020.1.tar.gz"
+    sha256 "c35965d010ce31b23eeb663ed3cc8c906275d6be1a34393a1d73a41febf4a048"
   end
 
   resource "PyYAML" do
@@ -195,8 +195,8 @@ class Cumulusci < Formula
   end
 
   resource "snowfakery" do
-    url "https://files.pythonhosted.org/packages/17/53/f453d7211dd9b30424eaff170177e0dd8bf4f89fd7527bf90c4ac05624ad/snowfakery-0.8.0.tar.gz"
-    sha256 "9bb4a62aca04d49ed90a25dc023a2d820e5550cba3b7d964a175568762b1d987"
+    url "https://files.pythonhosted.org/packages/72/c5/97e371d35a248ce3216537fb6d7a5dee2006c894d944371975bd1a5da841/snowfakery-0.8.1.tar.gz"
+    sha256 "35b089ba70deb85b1a60e43ccedf8c399e149638e1c0a54b32ce0e919e3ccf00"
   end
 
   resource "SQLAlchemy" do
