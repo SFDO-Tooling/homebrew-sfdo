@@ -3,8 +3,8 @@ class Cumulusci < Formula
 
   desc "Python framework for building automation for Salesforce projects"
   homepage "https://github.com/SFDO-Tooling/CumulusCI"
-  url "https://files.pythonhosted.org/packages/27/60/aa1d5e45ec5e288d4c849b4ab59974e4b4e1512bb19fedf750da1eb20db4/cumulusci-3.13.0.tar.gz"
-  sha256 "e02d5b34d9b8f54dbd9ec7c0aa16e407c11ea3c9f7d5d8589abed8777156ea66"
+  url "https://files.pythonhosted.org/packages/6d/60/a83ee0bb46f3ce55ff86d461fa88d88a00bbc4b840e0c413511aa9a38a5f/cumulusci-3.13.1.tar.gz"
+  sha256 "ebbe38c70f1ea5dab25cde1343c5b14c6ea3182c8d5b81d2400c1edf47013372"
   head "https://github.com/SFDO-Tooling/CumulusCI.git"
 
   depends_on "python"
@@ -80,8 +80,8 @@ class Cumulusci < Formula
   end
 
   resource "importlib-metadata" do
-    url "https://files.pythonhosted.org/packages/b4/1b/baab42e3cd64c9d5caac25a9d6c054f8324cdc38975a44d600569f1f7158/importlib_metadata-1.6.0.tar.gz"
-    sha256 "34513a8a0c4962bc66d35b359558fd8a5e10cd472d37aec5f66858addef32c1e"
+    url "https://files.pythonhosted.org/packages/aa/9a/8483b77e2decd95963d7e34bc9bc91a26e71fd89b57d8cf978ca24747c7f/importlib_metadata-1.6.1.tar.gz"
+    sha256 "0505dd08068cfec00f53a74a0ad927676d7757da81b7436a6eefe4c7cf75c545"
   end
 
   resource "Jinja2" do
