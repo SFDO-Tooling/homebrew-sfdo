@@ -3,8 +3,8 @@ class Cumulusci < Formula
 
   desc "Python framework for building automation for Salesforce projects"
   homepage "https://github.com/SFDO-Tooling/CumulusCI"
-  url "https://files.pythonhosted.org/packages/9e/c5/99352a122ed77d13adee7cadd2efc74c3f2a40057e683727936be5b9903b/cumulusci-3.14.0.tar.gz"
-  sha256 "0f2fad418c01776bad7953f40a1b9c12e8b09d3472ec7ea89cd56dc8148d3664"
+  url "https://files.pythonhosted.org/packages/13/30/11cba3828fec9efbc129af7b768eb4a3cd43dcc3f5a77cfc3648165513b4/cumulusci-3.15.0.tar.gz"
+  sha256 "c344282a4b33cda2bd3d07cd5f09bd0a6b53a7963a817e697d8c9b6a522c2540"
   head "https://github.com/SFDO-Tooling/CumulusCI.git"
 
   depends_on "python"
@@ -20,8 +20,8 @@ class Cumulusci < Formula
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/b4/19/53433f37a31543364c8676f30b291d128cdf4cd5b31b755b7890f8e89ac8/certifi-2020.4.5.2.tar.gz"
-    sha256 "5ad7e9a056d25ffa5082862e36f119f7f7cec6457fa07ee2f8c339814b80c9b1"
+    url "https://files.pythonhosted.org/packages/40/a7/ded59fa294b85ca206082306bba75469a38ea1c7d44ea7e1d64f5443d67a/certifi-2020.6.20.tar.gz"
+    sha256 "5930595817496dd21bb8dc35dad090f1c2cd0adfaf21204bf6732ca5d8ee34d3"
   end
 
   resource "cffi" do
@@ -60,8 +60,8 @@ class Cumulusci < Formula
   end
 
   resource "Faker" do
-    url "https://files.pythonhosted.org/packages/eb/89/e91835cd88f42ba9f4dfe14cb2c42d3e17f7f96fba22db8b01fd47b13da5/Faker-4.1.0.tar.gz"
-    sha256 "103c46b9701a151299c5bffe6fefcd4fb5fb04c3b5d06bee4952d36255d44ea2"
+    url "https://files.pythonhosted.org/packages/03/3f/421675cab9f9256f36b030623a356231f8f899a738dc823996617065eaff/Faker-4.1.1.tar.gz"
+    sha256 "c006b3664c270a2cfd4785c5e41ff263d48101c4e920b5961cf9c237131d8418"
   end
 
   resource "github3.py" do
@@ -75,13 +75,13 @@ class Cumulusci < Formula
   end
 
   resource "idna" do
-    url "https://files.pythonhosted.org/packages/cb/19/57503b5de719ee45e83472f339f617b0c01ad75cba44aba1e4c97c2b0abd/idna-2.9.tar.gz"
-    sha256 "7588d1c14ae4c77d74036e8c22ff447b26d0fde8f007354fd48a7814db15b7cb"
+    url "https://files.pythonhosted.org/packages/ea/b7/e0e3c1c467636186c39925827be42f16fee389dc404ac29e930e9136be70/idna-2.10.tar.gz"
+    sha256 "b307872f855b18632ce0c21c5e45be78c0ea7ae4c15c828c20788b26921eb3f6"
   end
 
   resource "importlib-metadata" do
-    url "https://files.pythonhosted.org/packages/aa/9a/8483b77e2decd95963d7e34bc9bc91a26e71fd89b57d8cf978ca24747c7f/importlib_metadata-1.6.1.tar.gz"
-    sha256 "0505dd08068cfec00f53a74a0ad927676d7757da81b7436a6eefe4c7cf75c545"
+    url "https://files.pythonhosted.org/packages/e2/ae/0b037584024c1557e537d25482c306cf6327b5a09b6c4b893579292c1c38/importlib_metadata-1.7.0.tar.gz"
+    sha256 "90bb658cdbbf6d1735b6341ce708fc7024a3e14e99ffdc5783edea9f9b077f83"
   end
 
   resource "Jinja2" do
@@ -195,13 +195,13 @@ class Cumulusci < Formula
   end
 
   resource "snowfakery" do
-    url "https://files.pythonhosted.org/packages/fd/0f/9bd4601eb26f0d0169f6fa305cbdfddb9877000e785eefb74c40f8e7f5ee/snowfakery-1.0.0.tar.gz"
-    sha256 "a25ce351fd68fa58f5fc7636e0cf169eaec12cdde707a69aea62dde76679bce2"
+    url "https://files.pythonhosted.org/packages/f8/4f/f89134314d08d11905c37cfcfcd7b676583f744ce87e0a3b5885abc961f9/snowfakery-1.0.1.tar.gz"
+    sha256 "fdd634026a0cb2d403d5173d4f81859cddb7787d9b0a316c6d6efd33a98e20d6"
   end
 
   resource "SQLAlchemy" do
-    url "https://files.pythonhosted.org/packages/84/f4/5a61726869da51f37f643ea92bfa440e32eb182bdc1a1c7cfc9504930a95/SQLAlchemy-1.3.17.tar.gz"
-    sha256 "156a27548ba4e1fed944ff9fcdc150633e61d350d673ae7baaf6c25c04ac1f71"
+    url "https://files.pythonhosted.org/packages/02/80/c83986fceeed04f7d42e3fd8a67e94e87b56afb223ee653e8a4a8986361e/SQLAlchemy-1.3.18.tar.gz"
+    sha256 "da2fb75f64792c1fc64c82313a00c728a7c301efe6a60b7a9fe35b16b4368ce7"
   end
 
   resource "terminaltables" do
