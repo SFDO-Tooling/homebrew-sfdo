@@ -3,15 +3,15 @@ class Cumulusci < Formula
 
   desc "Python framework for building automation for Salesforce projects"
   homepage "https://github.com/SFDO-Tooling/CumulusCI"
-  url "https://files.pythonhosted.org/packages/13/30/11cba3828fec9efbc129af7b768eb4a3cd43dcc3f5a77cfc3648165513b4/cumulusci-3.15.0.tar.gz"
-  sha256 "c344282a4b33cda2bd3d07cd5f09bd0a6b53a7963a817e697d8c9b6a522c2540"
+  url "https://files.pythonhosted.org/packages/09/32/2cebdb19b7ee7ccc6c3326939e489ace329e40fbe075db25c89591c4b559/cumulusci-3.16.0.tar.gz"
+  sha256 "a2943183184703f7ca87868ce54fda48fa00957a93ad8af9516059ba89a38f17"
   head "https://github.com/SFDO-Tooling/CumulusCI.git"
 
   depends_on "python"
 
   resource "asn1crypto" do
-    url "https://files.pythonhosted.org/packages/9f/3d/8beae739ed8c1c8f00ceac0ab6b0e97299b42da869e24cf82851b27a9123/asn1crypto-1.3.0.tar.gz"
-    sha256 "5a215cb8dc12f892244e3a113fe05397ee23c5c4ca7a69cd6e69811755efc42d"
+    url "https://files.pythonhosted.org/packages/6b/b4/42f0e52ac2184a8abb31f0a6f98111ceee1aac0b473cee063882436e0e09/asn1crypto-1.4.0.tar.gz"
+    sha256 "f4f6e119474e58e04a2b1af817eb585b4fd72bdd89b998624712b5c99be7641c"
   end
 
   resource "Authlib" do
@@ -25,8 +25,8 @@ class Cumulusci < Formula
   end
 
   resource "cffi" do
-    url "https://files.pythonhosted.org/packages/05/54/3324b0c46340c31b909fcec598696aaec7ddc8c18a63f2db352562d3354c/cffi-1.14.0.tar.gz"
-    sha256 "2d384f4a127a15ba701207f7639d94106693b6cd64173d6c8988e2c25f3ac2b6"
+    url "https://files.pythonhosted.org/packages/54/1d/15eae71ab444bd88a1d69f19592dcf32b9e3166ecf427dd9243ef0d3b7bc/cffi-1.14.1.tar.gz"
+    sha256 "b2a2b0d276a136146e012154baefaea2758ef1f56ae9f4e01c612b0831e0bd2f"
   end
 
   resource "chardet" do
@@ -45,8 +45,8 @@ class Cumulusci < Formula
   end
 
   resource "cryptography" do
-    url "https://files.pythonhosted.org/packages/56/3b/78c6816918fdf2405d62c98e48589112669f36711e50158a0c15d804c30d/cryptography-2.9.2.tar.gz"
-    sha256 "a0c30272fb4ddda5f5ffc1089d7405b7a71b0b0f51993cb4e5dbb4590b2fc229"
+    url "https://files.pythonhosted.org/packages/bf/ac/552fc8729d90393845cc3a2062facf4a89dcbe206fa78771d60ddaae7554/cryptography-3.0.tar.gz"
+    sha256 "8e924dbc025206e97756e8903039662aa58aa9ba357d8e1d8fc29e3092322053"
   end
 
   resource "docutils" do
@@ -100,8 +100,8 @@ class Cumulusci < Formula
   end
 
   resource "lxml" do
-    url "https://files.pythonhosted.org/packages/03/a8/73d795778143be51d8b86750b371b3efcd7139987f71618ad9f4b8b65543/lxml-4.5.1.tar.gz"
-    sha256 "27ee0faf8077c7c1a589573b1450743011117f1aa1a91d5ae776bbc5ca6070f2"
+    url "https://files.pythonhosted.org/packages/2c/4d/3ec1ea8512a7fbf57f02dee3035e2cce2d63d0e9c0ab8e4e376e01452597/lxml-4.5.2.tar.gz"
+    sha256 "cdc13a1682b2a6241080745b1953719e7fe0850b40a5c71ca574f090a1391df6"
   end
 
   resource "MarkupSafe" do
@@ -115,8 +115,8 @@ class Cumulusci < Formula
   end
 
   resource "pydantic" do
-    url "https://files.pythonhosted.org/packages/97/24/f8e05f16433b3b5332b3e2cf9b4625692c09432c7a18aa1d735fecb80904/pydantic-1.5.1.tar.gz"
-    sha256 "f0018613c7a0d19df3240c2a913849786f21b6539b9f23d85ce4067489dfacfa"
+    url "https://files.pythonhosted.org/packages/80/0a/75c950d621652f7d626225c1d8275d15e9119548b6faa7d0485a253ff181/pydantic-1.6.1.tar.gz"
+    sha256 "54122a8ed6b75fe1dd80797f8251ad2063ea348a03b77218d73ea9fe19bd4e73"
   end
 
   resource "PyJWT" do
@@ -159,9 +159,24 @@ class Cumulusci < Formula
     sha256 "2b5ac22ed59acbdf65f340ef3ddf10c7e88c9efd37cb03d7470d7c8e869cc0c1"
   end
 
+  resource "robotframework-pabot" do
+    url "https://files.pythonhosted.org/packages/73/d6/86bb0cbd6070e3624259d83c741a2abf378cafbb7b437a16138e67d3cd8e/robotframework-pabot-1.8.1.tar.gz"
+    sha256 "966118780eb1b2fe2455750c2bccfa2491cae14625c859de91008771486e714c"
+  end
+
+  resource "robotframework-pythonlibcore" do
+    url "https://files.pythonhosted.org/packages/b8/ec/fb5788396274fa9597d6916f65b095662856a07f0d7f1095db7559de33ae/robotframework-pythonlibcore-2.1.0.tar.gz"
+    sha256 "8b210bf29cbb78069b41a3d0b90e4cc8dd23f509ea2daf450e3ef4a6ee758949"
+  end
+
+  resource "robotframework-requests" do
+    url "https://files.pythonhosted.org/packages/3a/41/0283425342ecac1244c93f3e99c2e9d05063f3cc48eebf32a18013604791/robotframework-requests-0.7.0.tar.gz"
+    sha256 "da7bf998f9cbf8261199db7c96b95be1bf29d1db7f59dfbc77c435761698dc75"
+  end
+
   resource "robotframework-seleniumlibrary" do
-    url "https://files.pythonhosted.org/packages/16/61/a28b1224bd50d9405fc28753220110dd215077ce1bd24a32826d8b67a1fa/robotframework-seleniumlibrary-4.4.0.tar.gz"
-    sha256 "b765002947a74739a6910a2cdd86b414cbb22a0037c8391d5e014ae54495a8bf"
+    url "https://files.pythonhosted.org/packages/4c/ed/12f76b8acacb002ee3b44315d13395baab37cc06e7844f5f46150da34198/robotframework-seleniumlibrary-4.5.0.tar.gz"
+    sha256 "a0a571642f54dabb481ff1ea7dc6195b82c69d241d0e01de79de64fcbfa69e44"
   end
 
   resource "rst2ansi" do
@@ -185,8 +200,8 @@ class Cumulusci < Formula
   end
 
   resource "simple-salesforce" do
-    url "https://files.pythonhosted.org/packages/49/37/8a94a91a1beebdfe92039f71a0034788b5448eef4498353c25506f46ae0f/simple-salesforce-1.1.0.tar.gz"
-    sha256 "e6dccbe330eada5fb2a0e8b7ed96bc9a6d81ccf5930b5b5a001c5517c96fc3bc"
+    url "https://files.pythonhosted.org/packages/d9/24/03519659a95aefb83311e985f1a1bc543e4a24fbfc608ce78b57cb3142b1/simple-salesforce-1.10.1.tar.gz"
+    sha256 "20fd66cf40da732b9cdcb2f7160dde7bb298ef0c31702d1fdd767d1fc68cfe1b"
   end
 
   resource "six" do
@@ -230,8 +245,8 @@ class Cumulusci < Formula
   end
 
   resource "urllib3" do
-    url "https://files.pythonhosted.org/packages/05/8c/40cd6949373e23081b3ea20d5594ae523e681b6f472e600fbc95ed046a36/urllib3-1.25.9.tar.gz"
-    sha256 "3018294ebefce6572a474f0604c2021e33b3fd8006ecd11d62107a5d2a963527"
+    url "https://files.pythonhosted.org/packages/81/f4/87467aeb3afc4a6056e1fe86626d259ab97e1213b1dfec14c7cb5f538bf0/urllib3-1.25.10.tar.gz"
+    sha256 "91056c15fa70756691db97756772bb1eb9678fa585d9184f24534b100dc60f4a"
   end
 
   resource "xmltodict" do
