@@ -7,7 +7,7 @@ class Cumulusci < Formula
   sha256 "a2943183184703f7ca87868ce54fda48fa00957a93ad8af9516059ba89a38f17"
   head "https://github.com/SFDO-Tooling/CumulusCI.git"
 
-  depends_on "python"
+  depends_on "python@3.8"
 
   resource "asn1crypto" do
     url "https://files.pythonhosted.org/packages/6b/b4/42f0e52ac2184a8abb31f0a6f98111ceee1aac0b473cee063882436e0e09/asn1crypto-1.4.0.tar.gz"
@@ -275,7 +275,7 @@ class Cumulusci < Formula
 
     bin.install Dir["#{libexec}/bin/cci"]
     bin.install Dir["#{libexec}/bin/snowfakery"]
-    bin.env_script_all_files(libexec/"bin", :PYTHONPATH => ENV["PYTHONPATH"])
+    bin.env_script_all_files(libexec/"bin", PYTHONPATH: ENV["PYTHONPATH"])
   end
 
   test do
