@@ -3,8 +3,8 @@ class Cumulusci < Formula
 
   desc "Python framework for building automation for Salesforce projects"
   homepage "https://github.com/SFDO-Tooling/CumulusCI"
-  url "https://files.pythonhosted.org/packages/09/32/2cebdb19b7ee7ccc6c3326939e489ace329e40fbe075db25c89591c4b559/cumulusci-3.16.0.tar.gz"
-  sha256 "a2943183184703f7ca87868ce54fda48fa00957a93ad8af9516059ba89a38f17"
+  url "https://files.pythonhosted.org/packages/36/06/2133616cf632fdf0b8fa365860cab1f86a7e7da018e480f23742a9cd6b9a/cumulusci-3.17.1.tar.gz"
+  sha256 "1b897763d1ee821b1351dd4e4224fddd3ccf267fb3d9024aa1fdc4a42b9ed725"
   head "https://github.com/SFDO-Tooling/CumulusCI.git"
 
   depends_on "python@3.8"
@@ -25,8 +25,8 @@ class Cumulusci < Formula
   end
 
   resource "cffi" do
-    url "https://files.pythonhosted.org/packages/54/1d/15eae71ab444bd88a1d69f19592dcf32b9e3166ecf427dd9243ef0d3b7bc/cffi-1.14.1.tar.gz"
-    sha256 "b2a2b0d276a136146e012154baefaea2758ef1f56ae9f4e01c612b0831e0bd2f"
+    url "https://files.pythonhosted.org/packages/f7/09/88bbe20b76ca76be052c366fe77aa5e3cd6e5f932766e5597fecdd95b2a8/cffi-1.14.2.tar.gz"
+    sha256 "ae8f34d50af2c2154035984b8b5fc5d9ed63f32fe615646ab435b05b132ca91b"
   end
 
   resource "chardet" do
@@ -54,14 +54,9 @@ class Cumulusci < Formula
     sha256 "c2de3a60e9e7d07be26b7f2b00ca0309c207e06c100f9cc2a94931fc75a478fc"
   end
 
-  resource "factory-boy" do
-    url "https://files.pythonhosted.org/packages/5d/28/9f2284328547a3e29b39422a0a138d118a57686c0b4479f00c72240668d7/factory_boy-2.12.0.tar.gz"
-    sha256 "faf48d608a1735f0d0a3c9cbf536d64f9132b547dae7ba452c4d99a79e84a370"
-  end
-
   resource "Faker" do
-    url "https://files.pythonhosted.org/packages/03/3f/421675cab9f9256f36b030623a356231f8f899a738dc823996617065eaff/Faker-4.1.1.tar.gz"
-    sha256 "c006b3664c270a2cfd4785c5e41ff263d48101c4e920b5961cf9c237131d8418"
+    url "https://files.pythonhosted.org/packages/c8/b6/844b8e3c2cf6981df23eee2ae3436209eb69bd9aa765594a60261bc46e7d/Faker-4.1.2.tar.gz"
+    sha256 "ff188c416864e3f7d8becd8f9ee683a4b4101a2a2d2bcdcb3e84bb1bdd06eaae"
   end
 
   resource "github3.py" do
@@ -79,11 +74,6 @@ class Cumulusci < Formula
     sha256 "b307872f855b18632ce0c21c5e45be78c0ea7ae4c15c828c20788b26921eb3f6"
   end
 
-  resource "importlib-metadata" do
-    url "https://files.pythonhosted.org/packages/e2/ae/0b037584024c1557e537d25482c306cf6327b5a09b6c4b893579292c1c38/importlib_metadata-1.7.0.tar.gz"
-    sha256 "90bb658cdbbf6d1735b6341ce708fc7024a3e14e99ffdc5783edea9f9b077f83"
-  end
-
   resource "Jinja2" do
     url "https://files.pythonhosted.org/packages/64/a7/45e11eebf2f15bf987c3bc11d37dcc838d9dc81250e67e4c5968f6008b6c/Jinja2-2.11.2.tar.gz"
     sha256 "89aab215427ef59c34ad58735269eb58b1a5808103067f7bb9d5836c651b3bb0"
@@ -95,8 +85,8 @@ class Cumulusci < Formula
   end
 
   resource "keyring" do
-    url "https://files.pythonhosted.org/packages/a6/52/eb8a0e13b54ec9240c7dd68fcd0951c52f62033d438af372831af770f7cc/keyring-21.2.1.tar.gz"
-    sha256 "c53e0e5ccde3ad34284a40ce7976b5b3a3d6de70344c3f8ee44364cc340976ec"
+    url "https://files.pythonhosted.org/packages/27/57/9ebcc28f43ff77d29a12185eabc5723a2a7d2a88292eb8ba6c142abebc9b/keyring-21.3.0.tar.gz"
+    sha256 "22df6abfed49912fc560806030051067fba9f0069cffa79da72899aeea4ccbd5"
   end
 
   resource "lxml" do
@@ -215,8 +205,8 @@ class Cumulusci < Formula
   end
 
   resource "SQLAlchemy" do
-    url "https://files.pythonhosted.org/packages/02/80/c83986fceeed04f7d42e3fd8a67e94e87b56afb223ee653e8a4a8986361e/SQLAlchemy-1.3.18.tar.gz"
-    sha256 "da2fb75f64792c1fc64c82313a00c728a7c301efe6a60b7a9fe35b16b4368ce7"
+    url "https://files.pythonhosted.org/packages/e3/aa/63c30deea197969211eb5bdf31f30abc9e3fc91eb01b78b6f328a36c31e5/SQLAlchemy-1.3.19.tar.gz"
+    sha256 "3bba2e9fbedb0511769780fe1d63007081008c5c2d7d715e91858c94dbaa260e"
   end
 
   resource "terminaltables" do
@@ -252,11 +242,6 @@ class Cumulusci < Formula
   resource "xmltodict" do
     url "https://files.pythonhosted.org/packages/58/40/0d783e14112e064127063fbf5d1fe1351723e5dfe9d6daad346a305f6c49/xmltodict-0.12.0.tar.gz"
     sha256 "50d8c638ed7ecb88d90561beedbf720c9b4e851a9fa6c47ebd64e99d166d8a21"
-  end
-
-  resource "zipp" do
-    url "https://files.pythonhosted.org/packages/ce/8c/2c5f7dc1b418f659d36c04dec9446612fc7b45c8095cc7369dd772513055/zipp-3.1.0.tar.gz"
-    sha256 "c599e4d75c98f6798c509911d08a22e6c021d074469042177c8c86fb92eefd96"
   end
 
   def install
