@@ -3,11 +3,16 @@ class Cumulusci < Formula
 
   desc "Python framework for building automation for Salesforce projects"
   homepage "https://github.com/SFDO-Tooling/CumulusCI"
-  url "https://files.pythonhosted.org/packages/36/06/2133616cf632fdf0b8fa365860cab1f86a7e7da018e480f23742a9cd6b9a/cumulusci-3.17.1.tar.gz"
-  sha256 "1b897763d1ee821b1351dd4e4224fddd3ccf267fb3d9024aa1fdc4a42b9ed725"
+  url "https://files.pythonhosted.org/packages/9a/91/b638a8a538f8ec354fb9478ba95befefc1b8c89dab2651f9943f14e0624d/cumulusci-3.18.0.tar.gz"
+  sha256 "3e49f85bbfde02f1aee50d54705b4d200f705ce43aced612ba508ea4087901bf"
   head "https://github.com/SFDO-Tooling/CumulusCI.git"
 
   depends_on "python@3.8"
+
+  resource "appdirs" do
+    url "https://files.pythonhosted.org/packages/d7/d8/05696357e0311f5b5c316d7b95f46c669dd9c15aaeecbb48c7d0aeb88c40/appdirs-1.4.4.tar.gz"
+    sha256 "7d5d0167b2b1ba821647616af46a749d1c653740dd0d2415100fe26e27afdf41"
+  end
 
   resource "asn1crypto" do
     url "https://files.pythonhosted.org/packages/6b/b4/42f0e52ac2184a8abb31f0a6f98111ceee1aac0b473cee063882436e0e09/asn1crypto-1.4.0.tar.gz"
@@ -45,8 +50,8 @@ class Cumulusci < Formula
   end
 
   resource "cryptography" do
-    url "https://files.pythonhosted.org/packages/bf/ac/552fc8729d90393845cc3a2062facf4a89dcbe206fa78771d60ddaae7554/cryptography-3.0.tar.gz"
-    sha256 "8e924dbc025206e97756e8903039662aa58aa9ba357d8e1d8fc29e3092322053"
+    url "https://files.pythonhosted.org/packages/12/be/c9cc7d7ab71dbcc9e4e517ead0cdd48e8c9a48d7b8bdddb738e90d08279a/cryptography-3.1.tar.gz"
+    sha256 "26409a473cc6278e4c90f782cd5968ebad04d3911ed1c402fc86908c17633e08"
   end
 
   resource "docutils" do
@@ -57,6 +62,11 @@ class Cumulusci < Formula
   resource "Faker" do
     url "https://files.pythonhosted.org/packages/c8/b6/844b8e3c2cf6981df23eee2ae3436209eb69bd9aa765594a60261bc46e7d/Faker-4.1.2.tar.gz"
     sha256 "ff188c416864e3f7d8becd8f9ee683a4b4101a2a2d2bcdcb3e84bb1bdd06eaae"
+  end
+
+  resource "fs" do
+    url "https://files.pythonhosted.org/packages/1d/a1/8813629b38a8d97e8f1eceb6c7da03b37633c93104fbd8e30e09d195425a/fs-2.4.11.tar.gz"
+    sha256 "cc99d476b500f993df8ef697b96dc70928ca2946a455c396a566efe021126767"
   end
 
   resource "github3.py" do
@@ -80,13 +90,13 @@ class Cumulusci < Formula
   end
 
   resource "jwcrypto" do
-    url "https://files.pythonhosted.org/packages/71/7b/73788a97c5f5d24e9c75a03cca835af7acacd4f6aa1be428b6e9647e260b/jwcrypto-0.7.tar.gz"
-    sha256 "adbe1f6266cde35d40d5de6d1419612b3bd4c869b9332c88c9d7a9163d305100"
+    url "https://files.pythonhosted.org/packages/00/bb/ee916ab08e0510eb79cb3bfb561de2cd965ee60f0c3046c112e6e03c674a/jwcrypto-0.8.tar.gz"
+    sha256 "b7fee2635bbefdf145399392f5be26ad54161c8271c66b5fe107b4b452f06c24"
   end
 
   resource "keyring" do
-    url "https://files.pythonhosted.org/packages/27/57/9ebcc28f43ff77d29a12185eabc5723a2a7d2a88292eb8ba6c142abebc9b/keyring-21.3.0.tar.gz"
-    sha256 "22df6abfed49912fc560806030051067fba9f0069cffa79da72899aeea4ccbd5"
+    url "https://files.pythonhosted.org/packages/3e/79/da95ce71b572ce01c268492957cc4c1055da6f683077a6caba10944dc4f2/keyring-21.4.0.tar.gz"
+    sha256 "9aeadd006a852b78f4b4ef7c7556c2774d2432bbef8ee538a3e9089ac8b11466"
   end
 
   resource "lxml" do
@@ -140,8 +150,8 @@ class Cumulusci < Formula
   end
 
   resource "robotframework" do
-    url "https://files.pythonhosted.org/packages/7f/b6/ef61123cd21bd16977e0d12e9cd300b3e07e02b2ae16ddc20bf38bd7ef54/robotframework-3.2.1.zip"
-    sha256 "d693e6d06b17f48669e2a8c4cb6c1f0d56e5f1a74835d18b8ea2118da7bf2d79"
+    url "https://files.pythonhosted.org/packages/48/d3/b657f083893dfa1d88d94feb5bfdca66ba6f2861f46e3bd58a0ac1af286a/robotframework-3.2.2.zip"
+    sha256 "a0786a916d0572bd9d6afe26e95c6021e3df5dcafa0ece6b302e36366e58c24e"
   end
 
   resource "robotframework-lint" do
@@ -150,8 +160,8 @@ class Cumulusci < Formula
   end
 
   resource "robotframework-pabot" do
-    url "https://files.pythonhosted.org/packages/73/d6/86bb0cbd6070e3624259d83c741a2abf378cafbb7b437a16138e67d3cd8e/robotframework-pabot-1.8.1.tar.gz"
-    sha256 "966118780eb1b2fe2455750c2bccfa2491cae14625c859de91008771486e714c"
+    url "https://files.pythonhosted.org/packages/bb/49/2d9fe61e6c1365fddf66be628902beb4336b77092b1bcdfb92c0f1b924f8/robotframework-pabot-1.9.0.tar.gz"
+    sha256 "445d8de593baa0fac7dfd46721068e9e3ae74ec6258f7f03e9342f9987914495"
   end
 
   resource "robotframework-pythonlibcore" do
@@ -160,8 +170,8 @@ class Cumulusci < Formula
   end
 
   resource "robotframework-requests" do
-    url "https://files.pythonhosted.org/packages/3a/41/0283425342ecac1244c93f3e99c2e9d05063f3cc48eebf32a18013604791/robotframework-requests-0.7.0.tar.gz"
-    sha256 "da7bf998f9cbf8261199db7c96b95be1bf29d1db7f59dfbc77c435761698dc75"
+    url "https://files.pythonhosted.org/packages/c9/5f/b01c6002069a8347ecc1b216db0e29907887d4368ed0411e1dadcb1a3c96/robotframework-requests-0.7.1.tar.gz"
+    sha256 "501a1c7415f839d6837eedd57f2b6ed20576aab318bf14e3878a77c9b106aa45"
   end
 
   resource "robotframework-seleniumlibrary" do
@@ -180,8 +190,8 @@ class Cumulusci < Formula
   end
 
   resource "sarge" do
-    url "https://files.pythonhosted.org/packages/c4/2b/deaaacf4af3f9c45c48be04a6a48fec60515fb34dafda9fe61ecd2c5e4cc/sarge-0.1.5.post0.tar.gz"
-    sha256 "da8cc90883f8e5ab4af0d746438f608662f5f2a35da2e858517927edefa134b0"
+    url "https://files.pythonhosted.org/packages/2c/39/d5994d2060edef17c03e70eb8d9c4ac44ffae0294fe7bb3dc953e67133d8/sarge-0.1.6.tar.gz"
+    sha256 "f48fb904e64f10ad6bef62422eaf4736acfd9b13ab64ba44822637a9dbb53265"
   end
 
   resource "selenium" do
@@ -220,8 +230,8 @@ class Cumulusci < Formula
   end
 
   resource "typing-extensions" do
-    url "https://files.pythonhosted.org/packages/6a/28/d32852f2af6b5ead85d396249d5bdf450833f3a69896d76eb480d9c5e406/typing_extensions-3.7.4.2.tar.gz"
-    sha256 "79ee589a3caca649a9bfd2a8de4709837400dfa00b6cc81962a1e6a1815969ae"
+    url "https://files.pythonhosted.org/packages/16/06/0f7367eafb692f73158e5c5cbca1aec798cdf78be5167f6415dd4205fa32/typing_extensions-3.7.4.3.tar.gz"
+    sha256 "99d4073b617d30288f569d3f13d2bd7548c3a7e4c8de87db09a9d29bb3a4a60c"
   end
 
   resource "unicodecsv" do
