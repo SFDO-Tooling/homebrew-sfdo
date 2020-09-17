@@ -10,6 +10,5 @@ jobs:
       - uses: actions/checkout@master
       - name: Test formula
         run: |
-          brew audit cumulusci.rb
           brew install cumulusci.rb
           brew test cumulusci.rb
