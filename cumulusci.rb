@@ -3,8 +3,8 @@ class Cumulusci < Formula
 
   desc "Python framework for building automation for Salesforce projects"
   homepage "https://github.com/SFDO-Tooling/CumulusCI"
-  url "https://files.pythonhosted.org/packages/9a/91/b638a8a538f8ec354fb9478ba95befefc1b8c89dab2651f9943f14e0624d/cumulusci-3.18.0.tar.gz"
-  sha256 "3e49f85bbfde02f1aee50d54705b4d200f705ce43aced612ba508ea4087901bf"
+  url "https://files.pythonhosted.org/packages/1a/cc/d94847ad84bf7cc62c1c62136de073010083f7d038477344c4c540f6cb69/cumulusci-3.19.0.tar.gz"
+  sha256 "95898332e2edeca90127ef7ed9897e4ff3c1faea18f721c34abb9921aa3f25ed"
   head "https://github.com/SFDO-Tooling/CumulusCI.git"
 
   depends_on "python@3.8"
@@ -160,8 +160,8 @@ class Cumulusci < Formula
   end
 
   resource "robotframework-pabot" do
-    url "https://files.pythonhosted.org/packages/bb/49/2d9fe61e6c1365fddf66be628902beb4336b77092b1bcdfb92c0f1b924f8/robotframework-pabot-1.9.0.tar.gz"
-    sha256 "445d8de593baa0fac7dfd46721068e9e3ae74ec6258f7f03e9342f9987914495"
+    url "https://files.pythonhosted.org/packages/d9/d1/c749275755079f06f23eb4b1c7c4e01094b40f66737f1d44d988d80a2412/robotframework-pabot-1.10.0.tar.gz"
+    sha256 "417f1e24feebec04396165554ef3970b6fd569e3f38ae20d6072d88ed54b65e6"
   end
 
   resource "robotframework-pythonlibcore" do
@@ -210,8 +210,8 @@ class Cumulusci < Formula
   end
 
   resource "snowfakery" do
-    url "https://files.pythonhosted.org/packages/f8/4f/f89134314d08d11905c37cfcfcd7b676583f744ce87e0a3b5885abc961f9/snowfakery-1.0.1.tar.gz"
-    sha256 "fdd634026a0cb2d403d5173d4f81859cddb7787d9b0a316c6d6efd33a98e20d6"
+    url "https://files.pythonhosted.org/packages/a7/db/ba1129428fdf2fa45707b4f41606bcf553839eee871cc2876917d7faffa6/snowfakery-1.1.1.tar.gz"
+    sha256 "bcecc9474ff6683b337cda169cd95d040443edb3e340f3a5a01e78dbb54b8fec"
   end
 
   resource "SQLAlchemy" do
