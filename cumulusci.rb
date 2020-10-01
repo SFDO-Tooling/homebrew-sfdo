@@ -3,8 +3,8 @@ class Cumulusci < Formula
 
   desc "Python framework for building automation for Salesforce projects"
   homepage "https://github.com/SFDO-Tooling/CumulusCI"
-  url "https://files.pythonhosted.org/packages/93/3e/6031707e8e8300b29de7b346a9789002e042b4ee81da00aea702c7dc5894/cumulusci-3.19.1.tar.gz"
-  sha256 "b5f7c713d0c74e69edbbe9599949a131c07e867f75e980f5ef9556b89902c2bb"
+  url "https://files.pythonhosted.org/packages/d8/b6/3195d42805423b1da511ca19f2ae432063ff4bbda5eda27db330ab143986/cumulusci-3.20.0.tar.gz"
+  sha256 "5db7fd17b7a6402fe1637a5543eeb4e763f3aba384a70c80ac61b2223891435e"
   head "https://github.com/SFDO-Tooling/CumulusCI.git"
 
   depends_on "python@3.8"
@@ -30,8 +30,8 @@ class Cumulusci < Formula
   end
 
   resource "cffi" do
-    url "https://files.pythonhosted.org/packages/f7/09/88bbe20b76ca76be052c366fe77aa5e3cd6e5f932766e5597fecdd95b2a8/cffi-1.14.2.tar.gz"
-    sha256 "ae8f34d50af2c2154035984b8b5fc5d9ed63f32fe615646ab435b05b132ca91b"
+    url "https://files.pythonhosted.org/packages/cb/ae/380e33d621ae301770358eb11a896a34c34f30db188847a561e8e39ee866/cffi-1.14.3.tar.gz"
+    sha256 "f92f789e4f9241cd262ad7a555ca2c648a98178a953af117ef7fad46aa1d5591"
   end
 
   resource "chardet" do
@@ -50,8 +50,8 @@ class Cumulusci < Formula
   end
 
   resource "cryptography" do
-    url "https://files.pythonhosted.org/packages/12/be/c9cc7d7ab71dbcc9e4e517ead0cdd48e8c9a48d7b8bdddb738e90d08279a/cryptography-3.1.tar.gz"
-    sha256 "26409a473cc6278e4c90f782cd5968ebad04d3911ed1c402fc86908c17633e08"
+    url "https://files.pythonhosted.org/packages/5d/4b/7bb135c5787c003cdbc44990c5f41908f0f37135e0bb554e880d90fd5f6f/cryptography-3.1.1.tar.gz"
+    sha256 "9d9fc6a16357965d282dd4ab6531013935425d0dc4950df2e0cf2a1b1ac1017d"
   end
 
   resource "docutils" do
@@ -60,8 +60,8 @@ class Cumulusci < Formula
   end
 
   resource "Faker" do
-    url "https://files.pythonhosted.org/packages/c8/b6/844b8e3c2cf6981df23eee2ae3436209eb69bd9aa765594a60261bc46e7d/Faker-4.1.2.tar.gz"
-    sha256 "ff188c416864e3f7d8becd8f9ee683a4b4101a2a2d2bcdcb3e84bb1bdd06eaae"
+    url "https://files.pythonhosted.org/packages/60/1f/c7d5429347075b799576b9509926ff0fd72cffae2c34d1191ee8342c7b68/Faker-4.1.3.tar.gz"
+    sha256 "075a95ac4c95765370919d787dcd958acfaea635005ad5af4d926cb0973800db"
   end
 
   resource "fs" do
@@ -210,8 +210,8 @@ class Cumulusci < Formula
   end
 
   resource "snowfakery" do
-    url "https://files.pythonhosted.org/packages/a7/db/ba1129428fdf2fa45707b4f41606bcf553839eee871cc2876917d7faffa6/snowfakery-1.1.1.tar.gz"
-    sha256 "bcecc9474ff6683b337cda169cd95d040443edb3e340f3a5a01e78dbb54b8fec"
+    url "https://files.pythonhosted.org/packages/5b/88/f6379c63770a37f2ff87a4c5fe1f6992b782d5c18792f7a812ae7deb4b92/snowfakery-1.1.2.tar.gz"
+    sha256 "be9f0b1032f21541fb99667e0db031d002df6edc61aad49306d31fa8ba577910"
   end
 
   resource "SQLAlchemy" do
