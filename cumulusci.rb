@@ -3,8 +3,8 @@ class Cumulusci < Formula
 
   desc "Python framework for building automation for Salesforce projects"
   homepage "https://github.com/SFDO-Tooling/CumulusCI"
-  url "https://files.pythonhosted.org/packages/a7/e6/5ce5f3f6a11e05671154aef144d644e5aef808943e6205221232f937b03c/cumulusci-3.21.0.tar.gz"
-  sha256 "9e8de382534d40867570c76c8bb237bc7cc2adc4c5cff3ebb7bf185a6a5544c6"
+  url "https://files.pythonhosted.org/packages/45/3a/89c1a31e45a55b3f286f3c8cdfda4fbd5889c9177dd467802d053a841a55/cumulusci-3.21.1.tar.gz"
+  sha256 "537168a033bcc45c0d712458ad3056ffeaf7b1e854129290ad60892b4e436cc4"
   head "https://github.com/SFDO-Tooling/CumulusCI.git"
 
   depends_on "python@3.8"
@@ -20,8 +20,8 @@ class Cumulusci < Formula
   end
 
   resource "Authlib" do
-    url "https://files.pythonhosted.org/packages/fe/01/afcade9599abb24e8e855ad4593f1395b1fa82c72b967764954b3d564f16/Authlib-0.15.1.tar.gz"
-    sha256 "ff070c6d438bc465f2fb8dd6d73e248a8efc0b8ce6a09d368e78ae2b73a5a613"
+    url "https://files.pythonhosted.org/packages/30/32/9aa946caaac40de26899dfb9d4c74e9eaf416082fdc90268326e4206ae69/Authlib-0.15.2.tar.gz"
+    sha256 "21b34625c83ca48150684bbeca8f7c884cd281913c72d146dbf0e9d2fbfdec4e"
   end
 
   resource "certifi" do
