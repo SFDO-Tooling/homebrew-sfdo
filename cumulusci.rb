@@ -3,8 +3,8 @@ class Cumulusci < Formula
 
   desc "Python framework for building automation for Salesforce projects"
   homepage "https://github.com/SFDO-Tooling/CumulusCI"
-  url "https://files.pythonhosted.org/packages/da/a2/016ede3788b8e9800ee4174025669e4b86c97d204a9623888d0cc40e8126/cumulusci-3.22.0.tar.gz"
-  sha256 "0b3bbd59378d5c7e95c24ed35e5cd2255aa4afe91612bbe87f017d9de11d8525"
+  url "https://files.pythonhosted.org/packages/19/db/555a8b28f687f92b52994d18733b70a22f0c433d34a94306f7ff15ebea7c/cumulusci-3.23.0.tar.gz"
+  sha256 "a18c08795c581410dc1b9558f47593a4d35234b75050fe99532a14fdf1911d2b"
   head "https://github.com/SFDO-Tooling/CumulusCI.git"
 
   depends_on "python@3.8"
@@ -115,8 +115,8 @@ class Cumulusci < Formula
   end
 
   resource "pydantic" do
-    url "https://files.pythonhosted.org/packages/c9/2e/d13d3586d83c7de623281d24296c9349fca5ca58eea361ee94ae9bbc0d40/pydantic-1.7.tar.gz"
-    sha256 "38ee226f71dfbb7b91bc3d8af9932bf18c7505e57f7ed442e8cb78ff35c006a7"
+    url "https://files.pythonhosted.org/packages/24/5d/7be779647b54cef0398fe4f7e7da45f083afe7f7b2ee5afa6b4d6a1caf04/pydantic-1.7.2.tar.gz"
+    sha256 "c8200aecbd1fb914e1bd061d71a4d1d79ecb553165296af0c14989b89e90d09b"
   end
 
   resource "PyJWT" do
@@ -130,8 +130,8 @@ class Cumulusci < Formula
   end
 
   resource "pytz" do
-    url "https://files.pythonhosted.org/packages/f4/f6/94fee50f4d54f58637d4b9987a1b862aeb6cd969e73623e02c5c00755577/pytz-2020.1.tar.gz"
-    sha256 "c35965d010ce31b23eeb663ed3cc8c906275d6be1a34393a1d73a41febf4a048"
+    url "https://files.pythonhosted.org/packages/09/07/448a8887c7195450604dfc0305d80d74324c36ee18ed997664051d4bffe3/pytz-2020.4.tar.gz"
+    sha256 "3e6b7dd2d1e0a59084bcee14a17af60c5c562cdc16d828e8eba2e683d3a7e268"
   end
 
   resource "PyYAML" do
