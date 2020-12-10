@@ -3,8 +3,8 @@ class Cumulusci < Formula
 
   desc "Python framework for building automation for Salesforce projects"
   homepage "https://github.com/SFDO-Tooling/CumulusCI"
-  url "https://files.pythonhosted.org/packages/97/b5/f3dfd5dbaeabda49b7df613690f1ebcb3ba21f2e502c60d11d1e8d7a398d/cumulusci-3.24.1.tar.gz"
-  sha256 "f3c5a35a0acb97c118cec954d45286c01dc2840161961ee92c5c87aea5909006"
+  url "https://files.pythonhosted.org/packages/6f/13/7f630bea9c269af8569a04022453a676daf9c18f1a94d4b410c445785287/cumulusci-3.25.0.tar.gz"
+  sha256 "18d06b2f08b6575888760ecaaf9728f472fb5e02a40599232d3fe99f4aeb576d"
   head "https://github.com/SFDO-Tooling/CumulusCI.git"
 
   depends_on "python@3.8"
@@ -60,8 +60,8 @@ class Cumulusci < Formula
   end
 
   resource "Faker" do
-    url "https://files.pythonhosted.org/packages/2f/3e/84df31be6240e2f148c981866cf1f2aca7feb98af24ebaca72b566422f88/Faker-4.17.1.tar.gz"
-    sha256 "d4183b8f57316de3be27cd6c3b40e9f9343d27c95c96179f027316c58c2c239e"
+    url "https://files.pythonhosted.org/packages/cb/c2/3109f214108c59e8e247d9e6098f9155f888604b6136c464d35e26dbbd9c/Faker-4.18.0.tar.gz"
+    sha256 "6279746aed175a693108238e6d1ab8d7e26d0ec7ff8474f61025b9fdaae15d65"
   end
 
   resource "fs" do
@@ -75,8 +75,8 @@ class Cumulusci < Formula
   end
 
   resource "humanfriendly" do
-    url "https://files.pythonhosted.org/packages/6c/19/8e3b4c6fa7cca4788817db398c05274d98ecc6a35e0eaad2846fde90c863/humanfriendly-8.2.tar.gz"
-    sha256 "bf52ec91244819c780341a3438d5d7b09f431d3f113a475147ac9b7b167a3d12"
+    url "https://files.pythonhosted.org/packages/1f/6c/bddbe81bb6b0f03088069ef3a7346be5218cb0689025fa6c6c8dc1886da2/humanfriendly-9.0.tar.gz"
+    sha256 "175ffa628aa76da2c17369a5da5856084562cc66dfe7f82ae93ca3ef175277a6"
   end
 
   resource "idna" do
@@ -100,8 +100,8 @@ class Cumulusci < Formula
   end
 
   resource "lxml" do
-    url "https://files.pythonhosted.org/packages/c5/2f/a0d8aa3eee6d53d5723d89e1fc32eee11e76801b424e30b55c7aa6302b01/lxml-4.6.1.tar.gz"
-    sha256 "c152b2e93b639d1f36ec5a8ca24cde4a8eefb2b6b83668fcd8e83a67badcb367"
+    url "https://files.pythonhosted.org/packages/db/f7/43fecb94d66959c1e23aa53d6161231dca0e93ec500224cf31b3c4073e37/lxml-4.6.2.tar.gz"
+    sha256 "cd11c7e8d21af997ee8079037fff88f16fda188a9776eb4b81c7e4c9c0a7d7fc"
   end
 
   resource "MarkupSafe" do
@@ -115,8 +115,8 @@ class Cumulusci < Formula
   end
 
   resource "pydantic" do
-    url "https://files.pythonhosted.org/packages/24/5d/7be779647b54cef0398fe4f7e7da45f083afe7f7b2ee5afa6b4d6a1caf04/pydantic-1.7.2.tar.gz"
-    sha256 "c8200aecbd1fb914e1bd061d71a4d1d79ecb553165296af0c14989b89e90d09b"
+    url "https://files.pythonhosted.org/packages/67/da/955ec31a0c8989da0926192bf08e30359fb3f15ed2fab1bc2ced87d7bd76/pydantic-1.7.3.tar.gz"
+    sha256 "213125b7e9e64713d16d988d10997dabc6a1f73f3991e1ff8e35ebb1409c7dc9"
   end
 
   resource "PyJWT" do
