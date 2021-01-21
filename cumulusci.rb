@@ -3,8 +3,8 @@ class Cumulusci < Formula
 
   desc "Python framework for building automation for Salesforce projects"
   homepage "https://github.com/SFDO-Tooling/CumulusCI"
-  url "https://files.pythonhosted.org/packages/b1/fd/bec91e686183e55a180a310c231ba69928381202bf89dcf72c3f1b773ef7/cumulusci-3.26.0.tar.gz"
-  sha256 "8823da6f314063c4f42ebcaf4c3ba3093f68dc2ea756f7830eab0edcc2aaadbb"
+  url "https://files.pythonhosted.org/packages/8b/95/a083f09cf1ee0c74de9617da4991b7e715bfa2c6f250f5b673bfe005c6e5/cumulusci-3.27.0.tar.gz"
+  sha256 "b7446bc32e58571cbb155fe803439ad1b680706c1e8c8c45451243e8e4d32c17"
   head "https://github.com/SFDO-Tooling/CumulusCI.git"
 
   depends_on "python@3.8"
@@ -20,8 +20,8 @@ class Cumulusci < Formula
   end
 
   resource "Authlib" do
-    url "https://files.pythonhosted.org/packages/30/32/9aa946caaac40de26899dfb9d4c74e9eaf416082fdc90268326e4206ae69/Authlib-0.15.2.tar.gz"
-    sha256 "21b34625c83ca48150684bbeca8f7c884cd281913c72d146dbf0e9d2fbfdec4e"
+    url "https://files.pythonhosted.org/packages/0a/d9/dfe1c37ff71a593b24509a03a3f1c75a0670a82ec18fcd040d2b2309b113/Authlib-0.15.3.tar.gz"
+    sha256 "7dde11ba45db51e97169c261362fab3193073100b7387e60c159db1eec470bbc"
   end
 
   resource "certifi" do
@@ -60,13 +60,13 @@ class Cumulusci < Formula
   end
 
   resource "Faker" do
-    url "https://files.pythonhosted.org/packages/8e/6e/2b9f68fd34e9b635a124bd5f74e488e5a7b5a8a1aaa10ffa8d28de52fae8/Faker-5.1.0.tar.gz"
-    sha256 "9c595df9365860746dbc90ddb77dbffb1f3d87eac677a372fda2b68c259d1755"
+    url "https://files.pythonhosted.org/packages/80/b1/2b2c36e602ba4d870243439c22830661cb892f2a4c4dea5e78fa0cf03a21/Faker-5.6.3.tar.gz"
+    sha256 "eb1625d72ad8f59984bea3ec25b6b56c690ac28b058fd95f23d758743595c741"
   end
 
   resource "fs" do
-    url "https://files.pythonhosted.org/packages/1d/a1/8813629b38a8d97e8f1eceb6c7da03b37633c93104fbd8e30e09d195425a/fs-2.4.11.tar.gz"
-    sha256 "cc99d476b500f993df8ef697b96dc70928ca2946a455c396a566efe021126767"
+    url "https://files.pythonhosted.org/packages/74/98/abdd089384136e14166537d74185a61f764c0e5b7c87329d613cd3aa869f/fs-2.4.12.tar.gz"
+    sha256 "c10ba188b14d6213a1ca950efd004931abbfa64b294c80bbf1045753831bf42f"
   end
 
   resource "github3.py" do
@@ -120,8 +120,8 @@ class Cumulusci < Formula
   end
 
   resource "PyJWT" do
-    url "https://files.pythonhosted.org/packages/14/6d/096dc269d105ba374d6bfd3ecb22b516795ca0572499820dadc8178d9ae1/PyJWT-2.0.0.tar.gz"
-    sha256 "7a2b271c6dac2fda9e0c33d176c4253faba2c6c6b3a99c7f28a32c3c97522779"
+    url "https://files.pythonhosted.org/packages/ef/68/d610e2e10bc8336a033a6e0f0401341106ee9ed9cb0c1571b0d1a8eacf39/PyJWT-2.0.1.tar.gz"
+    sha256 "a5c70a06e1f33d81ef25eecd50d50bd30e34de1ca8b2b9fa3fe0daaabcf69bf7"
   end
 
   resource "python-dateutil" do
@@ -135,8 +135,8 @@ class Cumulusci < Formula
   end
 
   resource "PyYAML" do
-    url "https://files.pythonhosted.org/packages/64/c2/b80047c7ac2478f9501676c988a5411ed5572f35d1beff9cae07d321512c/PyYAML-5.3.1.tar.gz"
-    sha256 "b8eac752c5e14d3eca0e6dd9199cd627518cb5ec06add0de9d32baeee6fe645d"
+    url "https://files.pythonhosted.org/packages/b5/fd/15638de2da0a5aa91c095718444624aa565f766fc178249ca6faa372f71a/PyYAML-5.4.tar.gz"
+    sha256 "3c49e39ac034fd64fd576d63bb4db53cda89b362768a67f07749d55f128ac18a"
   end
 
   resource "raven" do
@@ -170,8 +170,8 @@ class Cumulusci < Formula
   end
 
   resource "robotframework-requests" do
-    url "https://files.pythonhosted.org/packages/aa/eb/7a9bf8a3bf4e9df9ec601e6be1955f0f3a76ee4641052553966ec7b81aa5/robotframework-requests-0.7.2.tar.gz"
-    sha256 "662e0ce5036a55bcb4cb46ff9741f40c78c670f4fb64cd37714cf83d5fd31774"
+    url "https://files.pythonhosted.org/packages/65/bb/17985230a6a506603db6c5aa3a1ca6851735ab6f0f0dad159b505069f0f7/robotframework-requests-0.8.0.tar.gz"
+    sha256 "9c49eac2bb5bcf20224d099863dbd6fbc217f8c2519e3ffd4dd06f4d4813302b"
   end
 
   resource "robotframework-seleniumlibrary" do
@@ -210,8 +210,8 @@ class Cumulusci < Formula
   end
 
   resource "snowfakery" do
-    url "https://files.pythonhosted.org/packages/31/95/2454213f69893642f5d94b0c40d94f311930087694dfebd526584fa80503/snowfakery-1.3.tar.gz"
-    sha256 "22db53efe4b14db74b40cd7553dc12a3d27188275f0190a1930b76a8ff30018c"
+    url "https://files.pythonhosted.org/packages/f9/ec/846a0ccf74385d3bcf1020fd83980614fbddd5a4cc868b68bce8d079c5ca/snowfakery-1.4.tar.gz"
+    sha256 "0d4b0abc62b95b6106158710c8624a0bbe0dd02059b12129ede9bc41c707d971"
   end
 
   resource "SQLAlchemy" do
