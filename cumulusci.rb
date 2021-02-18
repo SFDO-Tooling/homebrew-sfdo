@@ -3,8 +3,8 @@ class Cumulusci < Formula
 
   desc "Python framework for building automation for Salesforce projects"
   homepage "https://github.com/SFDO-Tooling/CumulusCI"
-  url "https://files.pythonhosted.org/packages/91/06/b3b0b4bf9655207c330355aa2f041b743314636abb3f10542a48c4330cb3/cumulusci-3.28.0.tar.gz"
-  sha256 "e97bb55bdb651438cb58c581a66418d5fd07dcc089d64e3c6eae5aad9aed4a80"
+  url "https://files.pythonhosted.org/packages/25/e3/e5830fced7464cbf20265137a8326a1cab5b9093d60348038b9830dc001c/cumulusci-3.29.0.tar.gz"
+  sha256 "3b0bf9f3c697342aefa1bfa3881edecb353feee8914785442326294f599b28b0"
   head "https://github.com/SFDO-Tooling/CumulusCI.git"
 
   depends_on "python@3.8"
@@ -30,8 +30,8 @@ class Cumulusci < Formula
   end
 
   resource "cffi" do
-    url "https://files.pythonhosted.org/packages/66/6a/98e023b3d11537a5521902ac6b50db470c826c682be6a8c661549cb7717a/cffi-1.14.4.tar.gz"
-    sha256 "1a465cbe98a7fd391d47dce4b8f7e5b921e6cd805ef421d04f5f66ba8f06086c"
+    url "https://files.pythonhosted.org/packages/a8/20/025f59f929bbcaa579704f443a438135918484fffaacfaddba776b374563/cffi-1.14.5.tar.gz"
+    sha256 "fd78e5fee591709f32ef6edb9a015b4aa1a5022598e36227500c8f4e02328d9c"
   end
 
   resource "chardet" do
@@ -50,8 +50,8 @@ class Cumulusci < Formula
   end
 
   resource "cryptography" do
-    url "https://files.pythonhosted.org/packages/b7/82/f7a4ddc1af185936c1e4fa000942ffa8fb2d98cff26b75afa7b3c63391c4/cryptography-3.3.1.tar.gz"
-    sha256 "7e177e4bea2de937a584b13645cab32f25e3d96fc0bc4a4cf99c27dc77682be6"
+    url "https://files.pythonhosted.org/packages/d4/85/38715448253404186029c575d559879912eb8a1c5d16ad9f25d35f7c4f4c/cryptography-3.3.2.tar.gz"
+    sha256 "5a60d3780149e13b7a6ff7ad6526b38846354d11a15e21068e57073e29e19bed"
   end
 
   resource "docutils" do
@@ -60,8 +60,8 @@ class Cumulusci < Formula
   end
 
   resource "Faker" do
-    url "https://files.pythonhosted.org/packages/79/74/32498294e0da9eccfefe9c6ff477fa7d49c849c924970ab508e7792f8a1c/Faker-5.8.0.tar.gz"
-    sha256 "6b2995ffff6c2b02bc5daad96f8c24c021e5bd491d9d53d31bcbd66f348181d4"
+    url "https://files.pythonhosted.org/packages/1f/74/3743f1e1b42debf16962576a6921d973158313a42c417f7cce46714e8de9/Faker-6.1.1.tar.gz"
+    sha256 "d4aecdb877519d06c2fdc01ffc5ecf70658981acf5e13cd07ded9892994ef5c6"
   end
 
   resource "fs" do
@@ -170,8 +170,8 @@ class Cumulusci < Formula
   end
 
   resource "robotframework-requests" do
-    url "https://files.pythonhosted.org/packages/65/bb/17985230a6a506603db6c5aa3a1ca6851735ab6f0f0dad159b505069f0f7/robotframework-requests-0.8.0.tar.gz"
-    sha256 "9c49eac2bb5bcf20224d099863dbd6fbc217f8c2519e3ffd4dd06f4d4813302b"
+    url "https://files.pythonhosted.org/packages/c9/8d/f1206ae6365b4f4005d0dc4103cc4d7d874b3aa9e9dfd88f70834d1835b8/robotframework-requests-0.8.1.tar.gz"
+    sha256 "b26f4ae617ff8c4b522fba422b7c8f83545a98aec3e2deb7f1aa53dcd68defe2"
   end
 
   resource "robotframework-seleniumlibrary" do
