@@ -492,7 +492,7 @@ xmltodict==0.12.0 \
 REQS
 
     File.write("requirements.txt", reqs)
-    system "python3", "-m", "pip", "install", "-r", "requirements.txt", "--require-hashes", "--no-deps", "--prefix", libexec
+    system "python3", "-m", "pip", "install", "-r", "requirements.txt", "--require-hashes", "--no-deps", "--ignore-installed", "--prefix", libexec
 
     bin.install Dir["#{libexec}/bin/cci"]
     bin.install Dir["#{libexec}/bin/snowfakery"]
