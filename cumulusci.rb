@@ -117,6 +117,10 @@ cumulusci==3.32.0 \
     --hash=sha256:7b12094bdce1455fe4d5ac6b67f2f94192ee2a253ffaa058aca38a2d48522498 \
     --hash=sha256:97b88354f985f5b117872f3fba2862f19ceeb489c57b969a4ec118bd52f5bb1c
     # via -r /var/folders/1c/sr1b47js725cgtjw6r4110kw0000gp/T/tmp.9XwPpjFC
+docutils==0.16 \
+    --hash=sha256:0c5b78adfbf7762415433f5515cd5c9e762339e23369dbe8000d84a4bf4ab3af \
+    --hash=sha256:c2de3a60e9e7d07be26b7f2b00ca0309c207e06c100f9cc2a94931fc75a478fc
+    # via cumulusci
 faker==7.0.1 \
     --hash=sha256:08c4cfbfd498c0e90aff6741771c01803d894013df858db6a573182c6a47951f \
     --hash=sha256:20c6e4253b73ef2a783d38e085e7c8d8916295fff31c7403116d2af8f908f7ca
