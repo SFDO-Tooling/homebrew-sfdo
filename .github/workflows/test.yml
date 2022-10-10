@@ -1,7 +1,5 @@
 name: Test Homebrew formula
 
-on: push
-
 jobs:
   build:
     name: Test Homebrew formula
